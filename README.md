@@ -33,9 +33,11 @@ The PCB was generated using [Ergogen](https://github.com/ergogen/ergogen), an er
 - [ ] Fix case model warnings (minor issues)
 - [ ] Correct PCB 3D model representation
 - [x] Implement firmware support
+- [ ] Add default keymap
 - [ ] Clean up Ergogen configuration
 - [ ] Reducing overall height of the case
 - [ ] Write PCB Schematic...? maybe
+- [ ] Support FDM/MJF version case w/ heat set insert method.
 
 ## Contributing
 
