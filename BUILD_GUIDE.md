@@ -8,11 +8,12 @@
 | Feet bumpons | 6 | 8mm diameter | |
 | 1n4148 diode | 36 | Standard size | [Aliexpress](https://a.aliexpress.com/_oCcCwmR) |
 | Kailh Choc PG1350 Hot Swap Sockets | 36 | | |
-| Kailh Choc switches | 36 | PG1350 (v1) or PG1353 (v2) or LOFREE low profile POM | |
+| Kailh Choc switches | 36 | PG1350 | |
+| Keycap | 36 | MBK, CFX or | |
 | Gamma Omega PCB | 2 | 1.6mm thickness | JLCPCB |
 | Top case | 1 | SLA Resin | JLC3DP |
 | Bottom case | 1 | SLA Resin | JLC3DP |
-| Pi Pico USB-C RP2040 | 1 | Standard microcontroller size | [Aliexpress](https://a.aliexpress.com/_opuRQZl) |
+| Pi Pico USB-C RP2040 | 1 |  | [Aliexpress](https://a.aliexpress.com/_opuRQZl) |
 
 
 ## Tools
