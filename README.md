@@ -25,8 +25,14 @@ The PCB was generated using [Ergogen](https://github.com/ergogen/ergogen), an er
 
 ### Dimensions
 
+ - Length: 246mm
+ -  Width: 119mm
+ - Height: approx. 18mm 
+   - feet to keycap (2mm height rubber feet and CFX choc v1 keycap)
+
 ### Weight
 
+full built: approx. 301g
 
 ## Changelog
 
@@ -45,7 +51,7 @@ The PCB was generated using [Ergogen](https://github.com/ergogen/ergogen), an er
 - [x] Implement firmware support
 - [ ] Add default keymap
 - [ ] Clean up Ergogen configuration
-- [ ] Reducing overall height of the case
+- [ ] ~~Reducing overall height of the case~~ Keeps this height. for the durability.
 - [ ] Write PCB Schematic...? maybe
 - [ ] Support FDM/MJF version case w/ heat set insert method.
 
