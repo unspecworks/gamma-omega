@@ -6,14 +6,17 @@
 | M2 Countersunk screw | 4 | 6mm length | |
 | M2 Countersunk screw | 4 | 8mm length (or 6mm × 8) | |
 | Feet bumpons | 6 | 8mm diameter | |
-| 1n4148 diode | 36 | Standard size | [Aliexpress](https://a.aliexpress.com/_oCcCwmR) |
+| 1n4148 diode | 36 |  | [Aliexpress](https://a.aliexpress.com/_oCcCwmR) |
 | Kailh Choc PG1350 Hot Swap Sockets | 36 | | |
-| Kailh Choc switches | 36 | PG1350 | |
+| Kailh Choc switches | 36 | PG1350 | *BUT* |
 | Keycap | 36 | MBK, CFX or | |
 | Gamma Omega PCB | 2 | 1.6mm thickness | JLCPCB |
 | Top case | 1 | SLA Resin | JLC3DP |
 | Bottom case | 1 | SLA Resin | JLC3DP |
 | Pi Pico USB-C RP2040 | 1 |  | [Aliexpress](https://a.aliexpress.com/_opuRQZl) |
+
+> [!TIP]
+> Actually, the PCB is compatible with choc v2 and Lofree POM switches. However, since the key spacing is 18x17mm, there may be issues with keycap compatibility. Please keep this in mind.
 
 
 ## Tools
@@ -21,14 +24,18 @@
 - Soldering tools.
 - Safety gears.
 - epoxy adhesive
-    - or cyanoacrylate adhesive would be fine too) for fixing inserts.
+    - or cyanoacrylate adhesive would be fine too for fixing inserts.
 
+> [!WARNING]
+> For your safety: Wear protective eyewear, be cautious of hot components, and ensure proper ventilation to avoid inhaling toxic fumes.
 
 # Build Guide
 
 ## Diodes Installation
 ![Diode](images/bg.jpg)
-*Install diodes with their direction matching the PCB silkscreen markings*
+> [!IMPORTANT]
+> Install diodes with their direction matching the PCB silkscreen markings
+
 ![diode2](images/bg-1.jpg)
 ![diode3](images/bg-2.jpg)
 
@@ -47,7 +54,8 @@
 
 1. Install the Pi Pico on the UP side of the PCB (opposite from where sockets and diodes are installed).
 2. Position the Pi Pico with its components facing down toward the PCB and the USB port facing outward.
-3. **Dont forget:** Do not solder the top left and right pins (the ones closest to the USB port).
+> [!NOTE]
+> Do not solder the top left and right pins (the ones closest to the USB port).
 4. After soldering, carefully trim all protruding pins with a nipper. Caution: trimmed pins may be sharp.
 
 ![final-pcb](images/bg-5.jpg)
@@ -74,4 +82,6 @@ Use your favorite keystroke tester (or Vial's Key matrix tester) with a conducti
 3. Place the PCB onto the top case.
 4. Install switches into the top case while holding the PCB (hotswap sockets) in place.
 5. Place the bottom case onto the top case assembly.
-6. Secure with screws (8mm or 6mm for upper side, 6mm for lower side). Do not overtighten: the screws only need to support the bottom case's weight.
+6. Secure with screws (8mm or 6mm for upper side, 6mm for lower side).
+> [!CAUTION]
+> Do not overtighten: the screws only need to support the bottom case's weight.
