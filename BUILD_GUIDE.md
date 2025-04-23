@@ -1,13 +1,13 @@
 # Parts List
 | Part | Quantity | Details | Source |
 |------------------|----------|-----------------|--------|
-| M2x2 Insert | 4 | 2mm length, 3.0mm diameter | |
-| M2x6 Insert | 4 | 6mm length, 3.0mm diameter | |
-| M2 Countersunk screw | 4 | 6mm length | |
-| M2 Countersunk screw | 4 | 8mm length (or 6mm × 8) | |
-| Feet bumpons | 6 | 8mm diameter | |
+| M2x2 Insert nut | 4 | 2mm length, 3.0mm diameter | |
+| M2x6 Insert nut | 4 | 6mm length, 3.0mm diameter | |
+| M2x6 Countersunk screw | 4 | 6mm length | |
+| M2x8 Countersunk screw | 4 | 8mm length (or 6mm × 8) | |
+| Feet bumpons | 6 | 8mm diameter, any height. | |
 | 1n4148 diode | 36 |  | [Aliexpress](https://a.aliexpress.com/_oCcCwmR) |
-| Kailh Choc PG1350 Hot Swap Sockets | 36 | | |
+| Kailh Choc PG1350 HotSwap Sockets | 36 | | |
 | Kailh Choc switches | 36 | PG1350 | *BUT* |
 | Keycap | 36 | MBK, CFX or | |
 | Gamma Omega PCB | 2 | 1.6mm thickness | JLCPCB |
