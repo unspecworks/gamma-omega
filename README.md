@@ -2,13 +2,15 @@
 
 A 36 Keys low-profile unibody ergonomic keyboard designed for portability and durability while still maintaining comfort.
 
-![Gamma-Omega](images/gamma_4.jpg)
+![Gamma-Omega](images/gamma.jpg)
+![Gamma-Omega-Wireframe](images/wireframe.png)
 *Portable? It may not be very compact, but you can still just toss it in your bag, right?*
 
 ## Quick Links
 
 - [3D Printable Case](cases/)
 - [PCB Files](pcb/)
+  - [Gerber](pcb/gerber/)
 - [Ergogen Configuration](ergogen/)
 - Firmwares:
   - [QMK/VIAL Implementation](firmwares/QMK/gamma_omega/)
@@ -45,7 +47,7 @@ full built: approx. 301g
 
 ### PCB
 - **v0.0.2**
-  - add gerber.zip for production.
+  - add gerber for the production.
 - **v0.0.1** (Initial Release)
   - First public version of the PCB design
 
