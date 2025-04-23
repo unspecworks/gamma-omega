@@ -53,8 +53,8 @@ full built: approx. 301g
 
 ### Firmware
  - **v0.0.1**
-  - add default vanilla keymaps.
-  - add pre-compiled firmware files.
+   - add default vanilla keymaps.
+   - add pre-compiled firmware files.
 
 ## Development Roadmap
 
