@@ -54,6 +54,8 @@
 
 1. Install the Pi Pico on the UP side of the PCB (opposite from where sockets and diodes are installed).
 2. Position the Pi Pico with its components facing down toward the PCB and the USB port facing outward.
+3. Use two 2.54mm × 19-pin headers (typically with ~2.5mm height insulators) to solder the Pi Pico onto the PCB.
+
 > [!NOTE]
 > Do not solder the top left and right pins (the ones closest to the USB port).
 
