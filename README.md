@@ -11,7 +11,7 @@ A 36 Keys low-profile unibody ergonomic keyboard designed for portability and du
 - [3D Printable Case](cases/)
 - [PCB Files](pcb/)
   - [Gerber](pcb/gerber/)
-- [Ergogen Configuration](ergogen/)
+- Ergogen Configuration - *TODO*
 - Firmwares:
   - [QMK/VIAL Implementation](firmwares/QMK/gamma_omega/)
     - [Precompiled](firmwares/precompiled/)
@@ -24,7 +24,7 @@ The PCB was generated using [Ergogen](https://github.com/ergogen/ergogen), an er
 
 ### Spacing
 
-18 x 17
+18 x 17mm (Choc spacing with in a tighter grid)
 
 ### Dimensions
 
