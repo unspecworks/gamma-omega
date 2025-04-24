@@ -95,3 +95,16 @@ Use your favorite keystroke tester (or Vial's Key matrix tester) with a conducti
 6. Secure with screws (8mm or 6mm for upper side, 6mm for lower side).
 > [!CAUTION]
 > Do not overtighten: the screws only need to support the bottom case's weight.
+
+## DONE!
+![back](images/gamma1.jpg)
+![front](images/gamma_7.jpg)
+
+### Everything is done.
+
+how does it feel? Comfortable? Any issues? Does it work as you expected?
+
+Whatever the result, I’d really appreciate it if you shared your experience with the community.
+
+
+Thank you for building it!
