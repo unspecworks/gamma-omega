@@ -67,7 +67,7 @@ full built: approx. 301g
 - [ ] Support FDM/MJF version case w/ heat set insert method.
 
 
-## Speical thanks
+## SPECIAL THANKS 
 
 [@GEIGEIGEIST](https://github.com/GEIGEIGEIST)
 - This project was greatly inspired by his work. In particular, TOTEM. [TOTEM](https://github.com/GEIGEIGEIST/totem) is my favorite lo-pro split keyboard. Please check it out.​​​​​​​​​​​​​​​​
