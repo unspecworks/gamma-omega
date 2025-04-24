@@ -8,6 +8,7 @@ A 36 Keys low-profile unibody ergonomic keyboard designed for portability and du
 
 ## Quick Links
 
+- [Showcase](images/showcase.md)
 - [3D Printable Case](cases/)
 - [PCB Files](pcb/)
   - [Gerber](pcb/gerber/)
