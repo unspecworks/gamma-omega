@@ -41,7 +41,7 @@
 
 1. Install diodes carefully, paying close attention to the correct orientation.
 2. The direction of the diode must match the silkscreen markings on the PCB.
-3. Ensure all diodes are installed parallel on the tht.
+3. Ensure all diodes are mounted flat against the PCB and aligned straight between the holes.
 
 ## Hotswap Socket Installation
 ![hotswap](images/bg-3.jpg)
@@ -56,7 +56,15 @@
 2. Position the Pi Pico with its components facing down toward the PCB and the USB port facing outward.
 > [!NOTE]
 > Do not solder the top left and right pins (the ones closest to the USB port).
-4. After soldering, carefully trim all protruding pins with a nipper. Caution: trimmed pins may be sharp.
+
+> [!WARNING]
+> Once soldered, the two PCBs are held together by only a few points. Please be careful when handling them, as they can be easily damaged before being placed in the case
+
+4. After soldering, carefully trim all protruding pins with a nipper.
+
+> [!CAUTION]
+> For your safety, please wear safety glasses — trimmed pins can be sharp and may fly off during cutting.
+
 
 ![final-pcb](images/bg-5.jpg)
 *Your PCB should look like this when completed*
