@@ -1,0 +1,338 @@
+meta:
+  engine: 4.1.0
+units:
+  cx: 17.5
+  cy: 16.5
+  mg: 50
+points:
+  # for debuging.
+  # mirror:
+  #   ref: matrix_inner_top
+  #   distance: mg
+  zones:
+    matrix:
+      anchor.shift: [50,-100] # Fix KiCad placement
+      columns:
+        pinky:
+          key:
+            spread: 12
+            splay: 0
+            origin: [0, -10]
+            width: cx
+            height: cy
+          rows:
+            bottom:
+              bind: [0, 30, 7, 0]
+              column_net: C0
+              row_net: R2
+              sw_net: S3
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C0
+              row_net: R1
+              sw_net: S2
+            top:
+              bind: [7, 15, 20, 0]
+              column_net: C0
+              row_net: R0 
+              sw_net: S1
+        ring:
+          key:
+            spread: cx - 1
+            stagger: cy * 0.5
+            splay: -10
+            origin: [0, -16]
+            width: cx
+            height: cy
+          rows:
+            bottom:
+              bind: [0, 0, 0, 0]
+              column_net: C1
+              row_net: R2 
+              sw_net: S6
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C1
+              row_net: R1
+              sw_net: S5
+            top:
+              bind: [0, 10, 20, 0]
+              column_net: C1
+              row_net: R0
+              sw_net: S4
+        middle:
+          key:
+            shift: [0, 0]
+            spread: cx 
+            stagger: cy/3
+            splay: -8
+            origin: [0, -12]
+            width: cx
+            height: cy
+          rows:
+            bottom:
+              bind: [0, 0, 0, 0]
+              column_net: C2
+              row_net: R2
+              sw_net: S9
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C2
+              row_net: R1
+              sw_net: S8
+            top:
+              bind: [0, 0, 0, 0]
+              column_net: C2
+              row_net: R0
+              sw_net: S7
+        index:
+          key:
+            spread: cx - .6
+            stagger: -cy/2
+            splay: -4
+            origin: [0, -cx]
+            width: cx
+            height: cy
+          rows:
+            bottom:
+              bind: [0, 0, 0, 0]
+              column_net: C3
+              row_net: R2
+              sw_net: S12
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C3
+              row_net: R1
+              sw_net: S11
+            top:
+              bind: [0, 0, 10, 10]
+              column_net: C3
+              row_net: R0
+              sw_net: S10
+        inner:
+          key:
+            spread: cx+.5
+            stagger: -cy/4
+            splay: 0
+            origin: [0, -cy]
+            width: cx
+            height: cy
+          rows: 
+            bottom:
+              bind: [0, 0, 0, 0]
+              column_net: C4
+              row_net: R2
+              sw_net: S15
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C4
+              row_net: R1
+              sw_net: S14
+            top:
+              bind: [0, 40, 40, 0]
+              column_net: C4
+              row_net: R0
+              sw_net: S13
+      rows:
+        bottom:
+          padding: cy + .5
+        home:
+          padding: cy + .5
+        top:
+    thumb:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-cx * 1.5 - 1,-cy-1]
+      columns:
+        first:
+          key:
+            splay: 0
+            width: cx
+            height: cy
+          rows:
+            only:
+              column_net: C5
+              row_net: R0
+              sw_net: S16
+              bind: [15, 5, 0, 0]
+        second:
+          key:
+            spread: cx + .75
+            splay: -15
+            origin: [-cx/2, -cx/2]
+            width: cx
+            height: cy
+          rows:
+            only:
+              column_net: C5
+              row_net: R1
+              sw_net: S17
+              bind: [10, 5, 0, 5]
+        third:
+          key:
+            spread: cx + .75
+            splay: -15
+            origin: [-cx/2, -cx/2]
+            width: cx
+            height: cy
+          rows:
+            only:
+              column_net: C5
+              row_net: R2
+              sw_net: S18
+              bind: [15, 0, 0, 0]
+        # fourth:
+        #   key:
+        #     spread: cx + .5
+        #     splay: 0
+        #     origin: [-cx/2, -cx/2]
+        #   rows:
+        #     only:
+        #       column_net: C2
+        #       row_net: D0
+        #       
+outlines:
+  raw:
+    - what: rectangle
+      where: true
+      bound: true
+      asym: both
+      size: [cx, cy]
+      corner: 0
+  pcb:
+    - what: outline
+      name: raw
+    - what: rectangle
+      where: matrix_inner_top
+      asym: source
+      size: [100, 30]
+      adjust:
+        shift: [mg / 2, 14.8]
+        orient: 22
+      operation: add
+    - what: rectangle #center bot
+      where: matrix_inner_top
+      asym: source
+      size: [70, 29]
+      adjust:
+        shift: [mg / 2, -55.8]
+        orient: 22
+      operation: add
+    - what: rectangle #center
+      where: matrix_inner_top
+      asym: source
+      size: [17, 310]
+      adjust:
+        shift: [mg / 2, -90]
+        orient: 22
+      operation: subtract
+  
+  out-pcb:
+    - what: outline
+      name: pcb
+      expand: 1
+      joints: 1
+      fillet: 0
+
+  pretty-pcb-nf: # for drawing case.
+    - what: outline
+      name: pcb
+      expand: 1
+      joints: 1
+
+  pretty-pcb: # final kicad edgecuts.
+    - what: outline
+      name: pretty-pcb-nf
+      fillet: 0.5
+
+  ## plate utils.
+  plate-cutout:
+    - what: rectangle
+      where: true
+      size: [13.8, 13.8]
+  plate-notch:
+    - what: rectangle
+      where: true
+      size: [16, 16]
+pcbs:
+  viminia:
+    template: kicad8
+    outlines:
+      edge:
+        outline: pretty-pcb
+    footprints:
+      choc_hotswap:
+        what: ceoloide/switch_choc_v1_v2
+        where: true
+        params:
+          from: "{{column_net}}"
+          to: "{{sw_net}}"
+          include_corner_marks: true
+          include_keycap: true
+          keycap_height: cy
+          keycap_width: cx
+          reversible: true
+          solder: false
+          hotswap: true
+          choc_v2_support: true
+          outer_pad_width_front: 2.0
+          outer_pad_width_back: 2.0
+          keycap_3dmodel_filename: '${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Keycap_MBK_Black_1u.step'
+          keycap_3dmodel_xyz_rotation: [180, 0, 0]
+          keycap_3dmodel_xyz_offset: [0, 0, -8]
+          switch_3dmodel_filename: '${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step'
+          switch_3dmodel_xyz_rotation: [180, 0, 0]
+          switch_3dmodel_xyz_offset: [0, 0, -1.6]
+          hotswap_3dmodel_filename: '${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Hotswap.step'
+          hotswap_3dmodel_xyz_rotation: [180, 0, 0]
+          hotswap_3dmodel_xyz_offset: [0, 0, -1.6]
+      mcu:
+        what: unspecworks/pico_oneside 
+        where:
+          ref: matrix_inner_top
+        adjust:
+          shift: [mg / 2, 6.67] 
+          orient: 22
+        params:
+          show_instructions: false
+          show_silk_labels: false
+          socket_3dmodel_filename: ''
+          header_3dmodel_xyz_offset: [0, -1.3, -1]
+          mcu_3dmodel_xyz_offset: [0, 0, 4.1]
+          mcu_3dmodel_xyz_rotation: [0, 180, 0]
+          mcu_3dmodel_filename: ''
+          P23: R0
+          P29: R1
+          P28: R2
+          P27: C0
+          P26: C1
+          P22: C2
+          P21: C3
+          P20: C4
+          P19: C5
+      diode:
+        what: unspecworks/diode_tht
+        where: true
+        adjust:
+          shift: [0, -3.8]
+        params:
+          from: "{{sw_net}}"
+          to: "{{row_net}}"
+          reversible: true
+          include_tht: true
+      case-hole-lt:
+        what: ceoloide/mounting_hole_plated
+        adjust:
+          shift: [43, -52.25]  
+      case-hole-lb:
+        what: ceoloide/mounting_hole_plated
+        adjust:
+          shift: [43, -113.75]  
+      case-hole-rt:
+        what: ceoloide/mounting_hole_plated
+        adjust:
+          shift: [132, -54.2]  
+      case-hole-rb:
+        what: ceoloide/mounting_hole_plated
+        adjust:
+          shift: [138, -151]  

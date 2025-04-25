@@ -12,7 +12,7 @@ A 36 Keys low-profile unibody ergonomic keyboard designed for portability and du
 - [3D Printable Case](cases/)
 - [PCB Files](pcb/)
   - [Gerber](pcb/gerber/)
-- Ergogen Configuration - *TODO*
+- [Ergogen Configuration](ergogen/README.md)
 - Firmwares:
   - [QMK/VIAL Implementation](firmwares/QMK/gamma_omega/)
     - [Precompiled](firmwares/precompiled/)
@@ -63,7 +63,7 @@ full built: approx. 301g
 - [ ] Correct PCB 3D model representation
 - [x] Implement firmware support
 - [x] Add default keymap
-- [ ] Clean up Ergogen configuration
+- [x] Clean up Ergogen configuration
 - [ ] Write PCB Schematic...? maybe
 - [ ] Support FDM/MJF version case w/ heat set insert method.
 
