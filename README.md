@@ -16,6 +16,7 @@ A 36 Keys low-profile unibody ergonomic keyboard designed for portability and du
 - Firmwares:
   - [QMK/VIAL Implementation](firmwares/QMK/gamma_omega/)
     - [Precompiled](firmwares/precompiled/)
+  - [ZMK Firmware](https://github.com/unspecworks/zmk-config-gamma-omega)
 - [Build Guide](BUILD_GUIDE.md)
 
 ## Technical Details
