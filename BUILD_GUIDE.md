@@ -13,7 +13,7 @@
 | Gamma Omega PCB | 2 | 1.6mm thickness | JLCPCB |
 | Top case | 1 | SLA Resin | JLC3DP |
 | Bottom case | 1 | SLA Resin | JLC3DP |
-| Pi Pico USB-C RP2040 | 1 |  | [Aliexpress](https://a.aliexpress.com/_opuRQZl) |
+| Pi Pico USB-C RP2040 | 1 | YD-RP2040 Variants are tested. [Info](https://circuitpython.org/board/vcc_gnd_yd_rp2040/) | [Aliexpress](https://a.aliexpress.com/_opuRQZl) |
 
 > [!TIP]
 > Actually, the PCB is compatible with choc v2 and Lofree POM switches. However, since the key spacing is 18x17mm, there may be issues with keycap compatibility. Please keep this in mind.
