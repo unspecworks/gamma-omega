@@ -262,7 +262,7 @@ pcbs:
           include_keycap: true
           keycap_height: cy
           keycap_width: cx
-          reversible: true
+          reversible: false
           solder: false
           hotswap: true
           choc_v2_support: true
