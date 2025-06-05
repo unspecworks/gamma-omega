@@ -180,16 +180,6 @@ points:
               row_net: R2
               sw_net: S18
               bind: [15, 0, 0, 0]
-        # fourth:
-        #   key:
-        #     spread: cx + .5
-        #     splay: 0
-        #     origin: [-cx/2, -cx/2]
-        #   rows:
-        #     only:
-        #       column_net: C2
-        #       row_net: D0
-        #       
 outlines:
   raw:
     - what: rectangle
