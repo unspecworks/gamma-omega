@@ -22,19 +22,22 @@ points:
           rows:
             bottom:
               bind: [0, 30, 7, 0]
-              column_net: C0
-              row_net: R2
-              sw_net: S3
+              column_net: C1
+              row_net: R10
+              mirror.column_net: C10
+              mirror.row_net: R12
             home:
               bind: [0, 0, 0, 0]
-              column_net: C0
+              column_net: C1
               row_net: R1
-              sw_net: S2
+              mirror.column_net: C10
+              mirror.row_net: R13
             top:
               bind: [7, 15, 20, 0]
-              column_net: C0
-              row_net: R0 
-              sw_net: S1
+              column_net: C1
+              row_net: R2
+              mirror.column_net: C10              
+              mirror.row_net: R2
         ring:
           key:
             spread: cx - 1
@@ -46,19 +49,22 @@ points:
           rows:
             bottom:
               bind: [0, 0, 0, 0]
-              column_net: C1
-              row_net: R2 
-              sw_net: S6
+              column_net: C2
+              row_net: R3
+              mirror.column_net: C9
+              mirror.row_net: R11
             home:
               bind: [0, 0, 0, 0]
-              column_net: C1
-              row_net: R1
-              sw_net: S5
+              column_net: C2
+              row_net: R6
+              mirror.column_net: C9
+              mirror.row_net: R10
             top:
               bind: [0, 10, 20, 0]
-              column_net: C1
-              row_net: R0
-              sw_net: S4
+              column_net: C2
+              row_net: R2
+              mirror.column_net: C9
+              mirror.row_net: R4
         middle:
           key:
             shift: [0, 0]
@@ -71,19 +77,22 @@ points:
           rows:
             bottom:
               bind: [0, 0, 0, 0]
-              column_net: C2
-              row_net: R2
-              sw_net: S9
+              column_net: C3
+              row_net: R3
+              mirror.column_net: C8
+              mirror.row_net: R12
             home:
               bind: [0, 0, 0, 0]
-              column_net: C2
-              row_net: R1
-              sw_net: S8
+              column_net: C3
+              row_net: R8
+              mirror.column_net: C8
+              mirror.row_net: R9
             top:
               bind: [0, 0, 0, 0]
-              column_net: C2
-              row_net: R0
-              sw_net: S7
+              column_net: C3
+              row_net: R4
+              mirror.column_net: C8
+              mirror.row_net: R8
         index:
           key:
             spread: cx - .6
@@ -95,19 +104,22 @@ points:
           rows:
             bottom:
               bind: [0, 0, 0, 0]
-              column_net: C3
-              row_net: R2
-              sw_net: S12
+              column_net: C4
+              row_net: R5
+              mirror.column_net: C7
+              mirror.row_net: R1
             home:
               bind: [0, 0, 0, 0]
-              column_net: C3
-              row_net: R1
-              sw_net: S11
+              column_net: C4
+              row_net: R13
+              mirror.column_net: C7
+              mirror.row_net: R7
             top:
               bind: [0, 0, 10, 10]
-              column_net: C3
-              row_net: R0
-              sw_net: S10
+              column_net: C4
+              row_net: R4
+              mirror.column_net: C7
+              mirror.row_net: R8
         inner:
           key:
             spread: cx+.5
@@ -119,19 +131,22 @@ points:
           rows: 
             bottom:
               bind: [0, 0, 0, 0]
-              column_net: C4
-              row_net: R2
-              sw_net: S15
+              column_net: C5
+              row_net: R9
+              mirror.column_net: C6
+              mirror.row_net: R11
             home:
               bind: [0, 0, 0, 0]
-              column_net: C4
-              row_net: R1
-              sw_net: S14
+              column_net: C5
+              row_net: R5
+              mirror.column_net: C6
+              mirror.row_net: R7
             top:
               bind: [0, 40, 40, 0]
-              column_net: C4
-              row_net: R0
-              sw_net: S13
+              column_net: C5
+              row_net: R6
+              mirror.column_net: C6
+              mirror.row_net: R6
       rows:
         bottom:
           padding: cy + .5
@@ -150,9 +165,10 @@ points:
             height: cy
           rows:
             only:
-              column_net: C5
-              row_net: R0
-              sw_net: S16
+              column_net: C11
+              row_net: R10
+              mirror.column_net: C12
+              mirror.row_net: R11
               bind: [15, 5, 0, 0]
         second:
           key:
@@ -163,9 +179,10 @@ points:
             height: cy
           rows:
             only:
-              column_net: C5
-              row_net: R1
-              sw_net: S17
+              column_net: C11
+              row_net: R9
+              mirror.column_net: C12
+              mirror.row_net: R12
               bind: [10, 5, 0, 5]
         third:
           key:
@@ -176,9 +193,10 @@ points:
             height: cy
           rows:
             only:
-              column_net: C5
-              row_net: R2
-              sw_net: S18
+              column_net: C13
+              row_net: R13
+              mirror.column_net: C13
+              mirror.row_net: R7
               bind: [15, 0, 0, 0]
 outlines:
   raw:
@@ -247,7 +265,7 @@ pcbs:
         where: true
         params:
           from: "{{column_net}}"
-          to: "{{sw_net}}"
+          to: "{{row_net}}"
           include_corner_marks: true
           include_keycap: true
           keycap_height: cy
@@ -291,16 +309,6 @@ pcbs:
           P21: C3
           P20: C4
           P19: C5
-      diode:
-        what: unspecworks/diode_tht
-        where: true
-        adjust:
-          shift: [0, -3.8]
-        params:
-          from: "{{sw_net}}"
-          to: "{{row_net}}"
-          reversible: true
-          include_tht: true
       case-hole-lt:
         what: ceoloide/mounting_hole_plated
         adjust:
