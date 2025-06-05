@@ -271,9 +271,10 @@ pcbs:
           keycap_height: cy
           keycap_width: cx
           reversible: false
-          solder: false
+          solder: true
           hotswap: true
-          choc_v2_support: true
+          include_traces_vias: false
+          choc_v2_support: false
           outer_pad_width_front: 2.0
           outer_pad_width_back: 2.0
           keycap_3dmodel_filename: '${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Keycap_MBK_Black_1u.step'
