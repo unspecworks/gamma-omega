@@ -5,10 +5,9 @@ units:
   cy: 16.5
   mg: 50
 points:
-  # for debuging.
-  # mirror:
-  #   ref: matrix_inner_top
-  #   distance: mg
+  mirror:
+    ref: matrix_inner_top
+    distance: mg
   zones:
     matrix:
       anchor.shift: [50,-100] # Fix KiCad placement
@@ -218,15 +217,7 @@ outlines:
         shift: [mg / 2, -55.8]
         orient: 22
       operation: add
-    - what: rectangle #center
-      where: matrix_inner_top
-      asym: source
-      size: [17, 310]
-      adjust:
-        shift: [mg / 2, -90]
-        orient: 22
-      operation: subtract
-  
+
   out-pcb:
     - what: outline
       name: pcb
@@ -255,7 +246,7 @@ outlines:
       where: true
       size: [16, 16]
 pcbs:
-  viminia:
+  gamma-omega-tutte-coxeter:
     template: kicad8
     outlines:
       edge:
