@@ -300,11 +300,11 @@ pcbs:
           GP1: R4
           GP2: R6
           GP3: R8
-          GP4: C1
-          GP5: C2
-          GP6: C3
-          GP7: C4
-          GP8: C5
+          GP4: C3
+          GP5: C4
+          GP6: C5
+          GP7: C2
+          GP8: C1
           GP9: R13
           GP10: R5
           GP11: R3
@@ -318,11 +318,11 @@ pcbs:
           GP18: R9
           GP19: R1
           GP20: R7
-          GP21: C6
-          GP22: C7
-          GP26: C8
-          GP27: C9
-          GP28: C10
+          GP21: C10
+          GP22: C9
+          GP26: C6
+          GP27: C7
+          GP28: C8
       case-hole-lt:
         what: ceoloide/mounting_hole_plated
         where:
