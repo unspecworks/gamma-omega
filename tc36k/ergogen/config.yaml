@@ -287,29 +287,42 @@ pcbs:
           hotswap_3dmodel_xyz_rotation: [180, 0, 0]
           hotswap_3dmodel_xyz_offset: [0, 0, -1.6]
       mcu:
-        what: unspecworks/pico_oneside 
+        what: VladAndral/pipico
         where:
           ref: matrix_inner_top
         adjust:
           shift: [mg / 2, 6.67] 
           orient: 22
         params:
-          show_instructions: false
-          show_silk_labels: false
-          socket_3dmodel_filename: ''
-          header_3dmodel_xyz_offset: [0, -1.3, -1]
-          mcu_3dmodel_xyz_offset: [0, 0, 4.1]
-          mcu_3dmodel_xyz_rotation: [0, 180, 0]
-          mcu_3dmodel_filename: ''
-          P23: R0
-          P29: R1
-          P28: R2
-          P27: C0
-          P26: C1
-          P22: C2
-          P21: C3
-          P20: C4
-          P19: C5
+          mounted: back
+          # Top left as look at chips, going down
+          GP0: R2
+          GP1: R4
+          GP2: R6
+          GP3: R8
+          GP4: C1
+          GP5: C2
+          GP6: C3
+          GP7: C4
+          GP8: C5
+          GP9: R13
+          GP10: R5
+          GP11: R3
+          GP12: R10
+          GP13: R12
+          GP14: C11
+          GP15: C13
+          # Bottom right, going up
+          GP16: R11
+          GP17: C12
+          GP18: R9
+          GP19: R1
+          GP20: R7
+          GP21: C6
+          GP22: C7
+          GP26: C8
+          GP27: C9
+          GP28: C10
       case-hole-lt:
         what: ceoloide/mounting_hole_plated
         adjust:
