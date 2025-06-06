@@ -209,15 +209,15 @@ outlines:
   pcb:
     - what: outline
       name: raw
-    - what: rectangle
+    - what: rectangle #center top horizontal (screw, controller)
       where: matrix_inner_top
       asym: source
-      size: [100, 30]
+      size: [160, 30]
       adjust:
-        shift: [mg / 2, 14.8]
+        shift: [mg / 2, 16.8]
         orient: 22
       operation: add
-    - what: rectangle #center bot
+    - what: rectangle #center bottom horizontal (inc. screw)
       where: matrix_inner_top
       asym: source
       size: [70, 29]
