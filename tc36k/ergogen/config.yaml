@@ -266,6 +266,7 @@ pcbs:
         params:
           from: "{{column_net}}"
           to: "{{row_net}}"
+          side: F
           include_corner_marks: true
           include_keycap: true
           keycap_height: cy
@@ -273,7 +274,6 @@ pcbs:
           reversible: false
           solder: true
           hotswap: true
-          include_traces_vias: false
           choc_v2_support: false
           outer_pad_width_front: 2.0
           outer_pad_width_back: 2.0
@@ -294,7 +294,7 @@ pcbs:
           shift: [mg / 2, 6.67] 
           orient: 22
         params:
-          mounted: back
+          mounted: front
           # Top left as look at chips, going down
           GP0: R2
           GP1: R4
