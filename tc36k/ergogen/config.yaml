@@ -325,17 +325,41 @@ pcbs:
           GP28: C10
       case-hole-lt:
         what: ceoloide/mounting_hole_plated
-        adjust:
-          shift: [43, -52.25]  
+        where:
+          ref: matrix_pinky_top
+          shift: [-7, 13.75]
+      case-hole-lt-mirror:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: mirror_matrix_pinky_top
+          shift: [-7, 13.75]
       case-hole-lb:
         what: ceoloide/mounting_hole_plated
-        adjust:
-          shift: [43, -113.75]  
+        where:
+          ref: matrix_pinky_bottom
+          shift: [-7, -13.75]
+      case-hole-lb-mirror:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: mirror_matrix_pinky_bottom
+          shift: [-7, -13.75]
       case-hole-rt:
         what: ceoloide/mounting_hole_plated
-        adjust:
-          shift: [132, -54.2]  
+        where:
+          ref: matrix_pinky_top
+          shift: [82, 11.75]
+      case-hole-rt-mirror:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: mirror_matrix_pinky_top
+          shift: [82, 11.75]
       case-hole-rb:
         what: ceoloide/mounting_hole_plated
-        adjust:
-          shift: [138, -151]  
+        where:
+          ref: matrix_pinky_bottom
+          shift: [88, -51]
+      case-hole-rb-mirror:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: mirror_matrix_pinky_bottom
+          shift: [88, -51]
