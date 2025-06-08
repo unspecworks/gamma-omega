@@ -305,8 +305,8 @@ pcbs:
           GP6: C5
           GP7: C2
           GP8: C1
-          GP9: R13
-          GP10: R5
+          GP9: R5
+          GP10: R13
           GP11: R3
           GP12: R10
           GP13: R12
