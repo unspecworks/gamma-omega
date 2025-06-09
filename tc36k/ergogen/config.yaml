@@ -23,21 +23,21 @@ points:
             bottom:
               bind: [0, 30, 7, 0]
               column_net: C1
-              row_net: R10
-              mirror.column_net: C10
+              row_net: R1
+              mirror.column_net: C12
               mirror.row_net: R12
             home:
               bind: [0, 0, 0, 0]
               column_net: C1
-              row_net: R1
-              mirror.column_net: C10
-              mirror.row_net: R13
+              row_net: R10
+              mirror.column_net: C12
+              mirror.row_net: R2
             top:
               bind: [7, 15, 20, 0]
               column_net: C1
               row_net: R2
-              mirror.column_net: C10              
-              mirror.row_net: R2
+              mirror.column_net: C12
+              mirror.row_net: R13
         ring:
           key:
             spread: cx - 1
@@ -51,19 +51,19 @@ points:
               bind: [0, 0, 0, 0]
               column_net: C2
               row_net: R3
-              mirror.column_net: C9
+              mirror.column_net: C10
               mirror.row_net: R11
             home:
               bind: [0, 0, 0, 0]
               column_net: C2
-              row_net: R6
-              mirror.column_net: C9
+              row_net: R2
+              mirror.column_net: C10
               mirror.row_net: R10
             top:
               bind: [0, 10, 20, 0]
               column_net: C2
-              row_net: R2
-              mirror.column_net: C9
+              row_net: R6
+              mirror.column_net: C10
               mirror.row_net: R4
         middle:
           key:
@@ -84,13 +84,13 @@ points:
             home:
               bind: [0, 0, 0, 0]
               column_net: C3
-              row_net: R8
+              row_net: R4
               mirror.column_net: C8
               mirror.row_net: R9
             top:
               bind: [0, 0, 0, 0]
               column_net: C3
-              row_net: R4
+              row_net: R8
               mirror.column_net: C8
               mirror.row_net: R8
         index:
@@ -107,13 +107,13 @@ points:
               column_net: C4
               row_net: R5
               mirror.column_net: C7
-              mirror.row_net: R1
+              mirror.row_net: R7
             home:
               bind: [0, 0, 0, 0]
               column_net: C4
               row_net: R13
               mirror.column_net: C7
-              mirror.row_net: R7
+              mirror.row_net: R1
             top:
               bind: [0, 0, 10, 10]
               column_net: C4
@@ -165,10 +165,10 @@ points:
             height: cy
           rows:
             only:
-              column_net: C11
+              column_net: C9
               row_net: R10
-              mirror.column_net: C12
-              mirror.row_net: R11
+              mirror.column_net: C11
+              mirror.row_net: R12
               bind: [15, 5, 0, 0]
         second:
           key:
@@ -179,10 +179,10 @@ points:
             height: cy
           rows:
             only:
-              column_net: C11
+              column_net: C9
               row_net: R9
-              mirror.column_net: C12
-              mirror.row_net: R12
+              mirror.column_net: C11
+              mirror.row_net: R11
               bind: [10, 5, 0, 5]
         third:
           key:
@@ -296,30 +296,30 @@ pcbs:
         params:
           mounted: front
           # Top left as look at chips, going down
-          GP0: R2
+          GP0: R8
           GP1: R4
           GP2: R6
-          GP3: R8
-          GP4: C3
-          GP5: C4
-          GP6: C5
-          GP7: C2
-          GP8: C1
-          GP9: R5
-          GP10: C11
-          GP11: R13
-          GP12: R3
-          GP13: R10
-          GP14: R12
-          GP15: C13
+          GP3: C3
+          GP4: C4
+          GP5: R13
+          GP6: R5
+          GP7: C5
+          GP8: R2
+          GP9: R3
+          GP10: C2
+          GP11: C1
+          GP12: R1
+          GP13: R9
+          GP14: R10
+          GP15: C9
           # Bottom right, going up
-          GP16: R11
-          GP17: C12
-          GP18: R9
-          GP19: R1
-          GP20: R7
+          GP16: C13
+          GP17: R12
+          GP18: R11
+          GP19: C11
+          GP20: C12
           GP21: C10
-          GP22: C9
+          GP22: R7
           GP26: C6
           GP27: C7
           GP28: C8
