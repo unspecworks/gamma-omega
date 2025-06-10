@@ -254,7 +254,7 @@ outlines:
       where: true
       size: [16, 16]
 pcbs:
-  gamma-omega-tutte-coxeter:
+  gamma-omega-tc36k:
     template: kicad8
     outlines:
       edge:
