@@ -545,7 +545,7 @@
 		)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_line
-			(start -6.999997 -1.499991)
+			(start -6.999997 -1.49999)
 			(end -7 -2)
 			(stroke
 				(width 0.15)
@@ -576,7 +576,7 @@
 		)
 		(fp_line
 			(start -2.5 -1.5)
-			(end -6.999997 -1.499991)
+			(end -6.999997 -1.49999)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -1845,7 +1845,7 @@
 		)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_line
-			(start -6.999997 -1.499991)
+			(start -6.999997 -1.49999)
 			(end -7 -2)
 			(stroke
 				(width 0.15)
@@ -1876,7 +1876,7 @@
 		)
 		(fp_line
 			(start -2.5 -1.5)
-			(end -6.999997 -1.499991)
+			(end -6.999997 -1.49999)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -3980,7 +3980,7 @@
 			(uuid "54fe2141-03fa-4edb-a264-c39dde1d0c18")
 		)
 		(pad "" np_thru_hole circle
-			(at 0.000004 -5.950011 342)
+			(at 0.000004 -5.95001 342)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
@@ -5708,7 +5708,7 @@
 		)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_line
-			(start -6.999997 -1.499991)
+			(start -6.999997 -1.49999)
 			(end -7 -2)
 			(stroke
 				(width 0.15)
@@ -5739,7 +5739,7 @@
 		)
 		(fp_line
 			(start -2.5 -1.5)
-			(end -6.999997 -1.499991)
+			(end -6.999997 -1.49999)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -6331,7 +6331,7 @@
 			(uuid "49bd5c9f-d9ac-488d-8e95-fd1a1b9d2aa2")
 		)
 		(pad "" np_thru_hole circle
-			(at 0.000004 -5.950011 342)
+			(at 0.000004 -5.95001 342)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
@@ -6842,7 +6842,7 @@
 		)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_line
-			(start -6.999997 -1.499991)
+			(start -6.999997 -1.49999)
 			(end -7 -2)
 			(stroke
 				(width 0.15)
@@ -6873,7 +6873,7 @@
 		)
 		(fp_line
 			(start -2.5 -1.5)
-			(end -6.999997 -1.499991)
+			(end -6.999997 -1.49999)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -9110,7 +9110,7 @@
 		)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_line
-			(start -6.999997 -1.499991)
+			(start -6.999997 -1.49999)
 			(end -7 -2)
 			(stroke
 				(width 0.15)
@@ -9141,7 +9141,7 @@
 		)
 		(fp_line
 			(start -2.5 -1.5)
-			(end -6.999997 -1.499991)
+			(end -6.999997 -1.49999)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -13517,7 +13517,7 @@
 		)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_line
-			(start -6.999997 -1.499991)
+			(start -6.999997 -1.49999)
 			(end -7 -2)
 			(stroke
 				(width 0.15)
@@ -13548,7 +13548,7 @@
 		)
 		(fp_line
 			(start -2.5 -1.5)
-			(end -6.999997 -1.499991)
+			(end -6.999997 -1.49999)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -14684,7 +14684,7 @@
 			(uuid "0f3a12d2-b83a-47f8-90bd-bac2e87ca2d1")
 		)
 		(pad "" np_thru_hole circle
-			(at 0.000004 -5.950011 342)
+			(at 0.000004 -5.95001 342)
 			(size 3 3)
 			(drill 3)
 			(layers "*.Cu" "*.Mask")
@@ -15656,7 +15656,7 @@
 		)
 		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 		(fp_line
-			(start -6.999997 -1.499991)
+			(start -6.999997 -1.49999)
 			(end -7 -2)
 			(stroke
 				(width 0.15)
@@ -15687,7 +15687,7 @@
 		)
 		(fp_line
 			(start -2.5 -1.5)
-			(end -6.999997 -1.499991)
+			(end -6.999997 -1.49999)
 			(stroke
 				(width 0.15)
 				(type solid)
@@ -16997,6 +16997,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "fb727272-0ac2-4e40-87d4-fbb14925a0f7")
+	)
+	(gr_text "GP21"
+		(at 171 86.5 45)
+		(layer "F.SilkS")
+		(uuid "4cd53f78-b930-4c6e-b2ed-79cc72c241ea")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.15)
+			)
+		)
 	)
 	(segment
 		(start 58.212002 96.606161)
