@@ -20,7 +20,7 @@
 > The placement of any boot/reset/user buttons varies between boards, even if they are pin-compatible.
 > The expected placement (looking at the controller chips upward with the USB and pin 1 at the top) is on the left near pins 7, 8 & 9 (GP5, GND & GP6).
 > This is the "black" controller at the Ali Express link:
-> ![Diode](images/black-raspberry-pi-pico-boot.png)
+> ![YD_PR2040 "black" Pi Pico microcontroller](images/black-raspberry-pi-pico-boot.png)
 
 > [!TIP]
 > Actually, the PCB is compatible with choc v2 and Lofree POM switches. However, since the key spacing is 18x17mm, there may be issues with keycap compatibility. Please keep this in mind.
