@@ -11,15 +11,17 @@ pins](https://astrobeano.blogspot.com/2025/05/ergo-mech-keyboard-wiring-using-tu
 The cost saving for no diodes is minimal, but with far less parts and soldering,
 this design should be quicker and easier to assemble.
 
-Specfically, it uses a partial Tutte Coxeter graph, with only 26/30 nodes/vertices/pins,
+Specfically, it uses a partial *Tutte Coxeter graph*, with only 26/30 nodes/vertices/pins,
 and 36/45 edges/switches/keys (thus "TC36e"), but still girth 8 for 6-key rollover. 
 
 The sub-folder structure is as follows:
 
 * `ergogen/` contains the Erogen configuration defining the key-placement and wiring net.
   That generates a blank PCB design without traces.
-* `pcb/` contains the Erogen PCB edited to add the traces and silkscreen art
-* `firmware/` contains the custom firmware to interpret the sparse scanning matrix.
+* `pcb/` contains the Erogen PCB edited to add the traces and silkscreen art.
+
+This needs different firmware to the original Gamma Omega design, see
+[Tutte Coxeter 36k firmware](https://github.com/peterjc/qmk_userspace/tree/main/keyboards/tutte_coxeter_36k).
 
 ## Credits
 
