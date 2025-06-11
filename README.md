@@ -46,7 +46,8 @@ This uses two identical reversible PCBs for the two halves of the keyboard, join
 This means some pins cannot be used as there isn't a matching pin on the other side,
 for example GP0 and GP1 are opposite voltage pins.
 
-![GPIO usage](images/black-raspberry-pi-pico-pins.png)
+This diagram sketches the [GPIO usage](images/black-raspberry-pi-pico-pins.png)
+(red and blue coloring following the convention for the two sides of the PCB).
 
 The design assumes a specific Raspberry Pi Pico variant with GPIOs on pins 35 and 37 (GP29 and GP23),
 which are not available on the original board design.
