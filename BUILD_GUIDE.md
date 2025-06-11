@@ -15,6 +15,13 @@
 | Bottom case | 1 | SLA Resin | JLC3DP |
 | Pi Pico USB-C RP2040 | 1 | YD-RP2040 Variants are tested. [Info](https://circuitpython.org/board/vcc_gnd_yd_rp2040/) | [Aliexpress](https://a.aliexpress.com/_opuRQZl) |
 
+> [!NOTE]
+> The bottom case has a hole allowing access to the boot button on the RP2040 controller, which is mounted facing down once fully assembled.
+> The placement of any boot/reset/user buttons varies between boards, even if they are pin-compatible.
+> The expected placement (looking at the controller chips upward with the USB and pin 1 at the top) is on the left near pins 7, 8 & 9 (GP5, GND & GP6).
+> This is the "black" controller at the Ali Express link:
+> ![Diode](images/black-raspberry-pi-pico-boot.png)
+
 > [!TIP]
 > Actually, the PCB is compatible with choc v2 and Lofree POM switches. However, since the key spacing is 18x17mm, there may be issues with keycap compatibility. Please keep this in mind.
 
