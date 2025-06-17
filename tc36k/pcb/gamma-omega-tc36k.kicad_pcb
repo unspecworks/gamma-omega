@@ -18341,6 +18341,32 @@
 			)
 		)
 	)
+	(gr_text "TC36K: Partial\nTutte-Coxeter\nGraph Layout"
+		(at 158.075 146.975 0)
+		(layer "F.SilkS")
+		(uuid "f6156a4d-7112-40bc-b700-85f1fa448b7b")
+		(effects
+			(font
+				(size 1.6 1.6)
+				(thickness 0.32)
+				(bold yes)
+			)
+			(justify top)
+		)
+	)
+	(gr_text "TC36K: Partial\nTutte-Coxeter\nGraph Layout"
+		(at 158.075 147 -0)
+		(layer "B.SilkS")
+		(uuid "d59693d3-0a5c-4c6b-bf01-162a52191439")
+		(effects
+			(font
+				(size 1.6 1.6)
+				(thickness 0.32)
+				(bold yes)
+			)
+			(justify top mirror)
+		)
+	)
 	(segment
 		(start 58.212002 96.606161)
 		(end 57.712007 96.106163)
