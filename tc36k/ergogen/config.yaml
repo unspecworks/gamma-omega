@@ -209,20 +209,26 @@ outlines:
   pcb:
     - what: outline
       name: raw
-    - what: rectangle #center top horizontal (screw, controller)
-      where: matrix_inner_top
-      asym: source
-      size: [160, 30]
+    - what: rectangle #center top horizontal (screw, controller pins, not USB area), mirrored
+      where: matrix_pinky_top
+      asym: both
+      # width and horiontal shift fine-tuned for right edge (USB cut-out),
+      # left edge is internal so not important.
+      # height and vertical offest fine-tuned for top to match automatic top-left cut
+      # (cover all the pins but still fit original case), bottom is internal so not important.
+      size: [100, 30]
       adjust:
-        shift: [mg / 2, 16.8]
-        orient: 22
+        shift: [49.5, 0.25]
       operation: add
-    - what: rectangle #center bottom horizontal (inc. screw)
+    - what: rectangle #center bottom horizontal (inc. screw) and (at top) bottom of USB cut-out
       where: matrix_inner_top
       asym: source
-      size: [70, 29]
+      # width and horiontal shift set left & right edges, both both interal so some leaway
+      # width and horiontal shift fine-tuned for top to be bottom of USB cut-out,
+      # AND the bottom edge to match original & case.
+      size: [70, 94]
       adjust:
-        shift: [mg / 2, -55.8]
+        shift: [mg / 2, -23.3]
         orient: 22
       operation: add
 
