@@ -212,7 +212,7 @@ outlines:
     - what: rectangle #center top horizontal (screw, controller pins, not USB area), mirrored
       where: matrix_pinky_top
       asym: both
-      # width and horiontal shift fine-tuned for right edge (USB cut-out),
+      # width and horizontal shift fine-tuned for right edge (USB cut-out),
       # left edge is internal so not important.
       # height and vertical offest fine-tuned for top to match automatic top-left cut
       # (cover all the pins but still fit original case), bottom is internal so not important.
@@ -223,8 +223,8 @@ outlines:
     - what: rectangle #center bottom horizontal (inc. screw) and (at top) bottom of USB cut-out
       where: matrix_inner_top
       asym: source
-      # width and horiontal shift set left & right edges, both both interal so some leaway
-      # width and horiontal shift fine-tuned for top to be bottom of USB cut-out,
+      # width and horizontal shift set left & right edges, both both interal so some leaway.
+      # height and vertical shift fine-tuned for top to be bottom of USB cut-out,
       # AND the bottom edge to match original & case.
       size: [70, 94]
       adjust:
