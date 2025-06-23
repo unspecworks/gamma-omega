@@ -249,6 +249,14 @@ outlines:
     - what: outline
       name: pretty-pcb-nf
       fillet: 0.5
+    - what: circle # boot button access cut-out
+      where: matrix_inner_top
+      asym: source
+      adjust:
+        shift: [(mg / 2) - 4.35, 12.35] 
+        orient: 22
+      radius: 2
+      operation: subtract
 
   ## plate utils.
   plate-cutout:
