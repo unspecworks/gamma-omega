@@ -18362,6 +18362,18 @@
 			(justify top)
 		)
 	)
+	(gr_text "Designed Tokyo June 2025, with \nErgogen v4.1.0 & KiCad v9.0.2"
+		(at 45.91 114.2 0)
+		(layer "F.SilkS")
+		(uuid "96709a48-c567-449c-a199-b5b830328098")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.1875)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "TC36K: Partial"
 		(at 156.643962 144.074418 0)
 		(layer "F.SilkS")
@@ -18412,6 +18424,18 @@
 				(bold yes)
 			)
 			(justify top mirror)
+		)
+	)
+	(gr_text "Designed Tokyo June 2025, with \nErgogen v4.1.0 & KiCad v9.0.2"
+		(at 267.46 114.2 0)
+		(layer "B.SilkS")
+		(uuid "a49f842b-e394-4690-97bc-fdf323c9bd8b")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.1875)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "Tutte-Coxeter"
