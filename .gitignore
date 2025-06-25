@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,kicad,windows,linux
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,kicad,windows,linux
 
+# Ignore ergogen outputs
+*/ergogen/output/
+
 ### KiCad ###
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/

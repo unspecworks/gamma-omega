@@ -1,3 +1,7 @@
+# Original Build guide
+
+[looking for tc36k's build guide?](../tc36k/BUILD_GUIDE.md)
+
 # Parts List
 | Part | Quantity | Details | Source |
 |------------------|----------|-----------------|--------|
@@ -21,7 +25,7 @@
 > The placement of any boot/reset/user buttons varies between boards, even if they are pin-compatible.
 > The expected placement (looking at the controller chips upward with the USB and pin 1 at the top) is on the left near pins 7, 8 & 9 (GP5, GND & GP6).
 > This is the "black" controller at the Ali Express link:
-> ![YD_PR2040 "black" Pi Pico microcontroller](images/black-raspberry-pi-pico-boot.png)
+> ![YD_PR2040 "black" Pi Pico microcontroller](../images/black-raspberry-pi-pico-boot.png)
 
 > [!TIP]
 > Actually, the PCB is compatible with choc v2 and Lofree POM switches. However, since the key spacing is 18x17mm, there may be issues with keycap compatibility. Please keep this in mind.
@@ -40,25 +44,25 @@
 # Build Guide
 
 ## Diodes Installation
-![Diode](images/bg.jpg)
+![Diode](../images/bg.jpg)
 > [!IMPORTANT]
 > Install diodes with their direction matching the PCB silkscreen markings
 
-![diode2](images/bg-1.jpg)
-![diode3](images/bg-2.jpg)
+![diode2](../images/bg-1.jpg)
+![diode3](../images/bg-2.jpg)
 
 1. Install diodes carefully, paying close attention to the correct orientation.
 2. The direction of the diode must match the silkscreen markings on the PCB.
 3. Ensure all diodes are mounted flat against the PCB and aligned straight between the holes.
 
 ## Hotswap Socket Installation
-![hotswap](images/bg-3.jpg)
+![hotswap](../images/bg-3.jpg)
 
 1. Install hotswap sockets according to the PCB markings.
 2. Ensure correct orientation of the sockets; while they can physically fit in either direction, the bottom case cutouts are designed for the correct orientation only.
 
 ## Pi Pico Installation
-![pico](images/bg-4.jpg)
+![pico](../images/bg-4.jpg)
 
 1. Install the Pi Pico on the UP side of the PCB (opposite from where sockets and diodes are installed).
 2. Position the Pi Pico with its components facing down toward the PCB and the USB port facing outward.
@@ -76,7 +80,7 @@
 > For your safety, please wear safety glasses — trimmed pins can be sharp and may fly off during cutting.
 
 
-![final-pcb](images/bg-5.jpg)
+![final-pcb](../images/bg-5.jpg)
 *Your PCB should look like this when completed*
 
 ## Firmware Flashing
@@ -90,12 +94,12 @@ Use your favorite keystroke tester (or Vial's Key matrix tester) with a conducti
 
 
 ## Case Assembly
-![topcase](images/bg-6.jpg)
+![topcase](../images/bg-6.jpg)
 
 1. Install 6mm threaded inserts with epoxy adhesive on the top case (upper side, near the USB port hole).
 2. Install 2mm threaded inserts with epoxy adhesive on the top case (lower side, opposite the USB port hole).
 
-![put-pcb](images/gamma2.jpg)
+![put-pcb](../images/gamma2.jpg)
 
 3. Place the PCB onto the top case.
 4. Install switches into the top case while holding the PCB (hotswap sockets) in place.
@@ -105,8 +109,8 @@ Use your favorite keystroke tester (or Vial's Key matrix tester) with a conducti
 > Do not overtighten: the screws only need to support the bottom case's weight.
 
 ## DONE!
-![back](images/gamma1.jpg)
-![front](images/gamma_7.jpg)
+![back](../images/gamma1.jpg)
+![front](../images/gamma_7.jpg)
 
 ### Everything is done.
 
