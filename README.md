@@ -24,7 +24,7 @@ _See the `README.md` in each folder for more information._
 
 ### Spacing
 
-18 x 17mm (Choc spacing with in a tighter grid)
+18 x 17mm (Choc spacing with a tighter grid)
 
 ### Dimensions
 
@@ -57,5 +57,11 @@ The PCB was generated using [Ergogen](https://github.com/ergogen/ergogen), an er
 ## Contributing
 
 Contributions are welcome! Feel free to submit pull requests or open issues for any improvements or bug fixes.
+
+The repository uses git-submodules for some footprints, it can easily be setup locally with:
+
+```console
+git clone --recurse-submodules https://github.com/unspecworks/gamma-omega.git
+```
 
 But I don't know much about modeling and PCB design.
