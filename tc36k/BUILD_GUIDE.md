@@ -14,13 +14,13 @@
 | M2x6 Countersunk screw | 4 | 6mm length | |
 | M2x8 Countersunk screw | 4 | 8mm length (or 6mm × 8) | |
 | Feet bumpons | 6 | 8mm diameter, any height. | |
-| Kailh Choc PG1350 HotSwap Sockets | 36 | | |
-| Kailh Choc switches | 36 | PG1350 | *BUT* |
+| Kailh Choc PG1350 HotSwap Sockets | 36 | 💡 |
+| Kailh Choc switches | 36 | PG1350 | 💡 |
 | Keycap | 36 | MBK, CFX, ... | |
 | Gamma Omega TC36K PCB | 1 | 1.6mm thickness | JLCPCB |
 | Top case | 1 | SLA Resin | JLC3DP |
 | Bottom case | 1 | SLA Resin | JLC3DP |
-| Pi Pico USB-C RP2040 | 1 | YD-RP2040 Variants are tested. [Info](https://circuitpython.org/board/vcc_gnd_yd_rp2040/) | [Aliexpress](https://a.aliexpress.com/_opuRQZl) |
+| Pi Pico USB-C RP2040 | 1 | YD-RP2040 Variants are tested. [Info](https://circuitpython.org/board/vcc_gnd_yd_rp2040/) | [Aliexpress](https://a.aliexpress.com/_opuRQZl) ⚠️ |
 
 > [!NOTE]
 > The bottom case and PCB has a hole allowing access to the boot button on the RP2040 controller, which is mounted facing down once fully assembled.
@@ -36,3 +36,7 @@
 > [!TIP]
 > Actually, the PCB should be compatible with choc v2 and Lofree POM switches (*untested*).
 > However, since the key spacing is 18x17mm, there may be issues with keycap compatibility. Please keep this in mind.
+
+> [!TIP]
+> This PCB allows directly soldering the choc switches (rotated 180 degress) without using hot-swap sockets.
+> However, that will not work with the suggested case bottom (which has hon-swap cut-outs).
