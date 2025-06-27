@@ -165,6 +165,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "735a1f41-1886-4115-9c08-2ef3b071b7ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
@@ -543,6 +555,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "86c7a84d-db53-44c0-a3cf-ce6c53884126")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
@@ -914,6 +938,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "09349f4a-8107-44f8-b376-da996f6c3ae9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "59efb054-d68c-4c5e-a314-5a549ac7d287")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1467,6 +1503,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "58deea4c-eb84-4c09-bf9a-4c96f2d60e13")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
@@ -1845,6 +1893,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dd80c7e8-ba5c-4f41-982c-2504ed752f58")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
@@ -2216,6 +2276,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e820f0d2-5ffe-4e44-a6c8-d9ab1c3f9725")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "db6857a0-9755-4ef4-a5d2-100cdadc40a7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,6 +4825,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "810c68b0-b19b-4ecf-8d83-fc9184e28274")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
@@ -5124,6 +5208,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cfaebb9b-ed14-4232-91db-8e333847ed53")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "54be83a8-f540-4740-8909-5bdc317e0927")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5509,6 +5605,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ebf53128-fa91-4168-95d8-5653e0f1568d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
@@ -5880,6 +5988,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ea78a251-fed4-4882-a9da-a85bf282c62f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ebeb28dd-f329-4d91-8c7f-a8fb09774984")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,6 +6385,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "67162702-8a2f-40f3-bdc1-36b3c2d899ae")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
@@ -6636,6 +6768,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97571867-7ca2-479c-b54f-811e09e0eb20")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9bff75cf-918c-4f49-876b-1240aadb5800")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,6 +7165,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6ef4d1ee-f056-454a-8ac8-6713cc3f5f18")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -6.999999 -1.5)
@@ -7392,6 +7548,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4c2dc018-3b2b-4da1-ba91-845e6fc1d602")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "beeabbf7-6053-41cf-a6e8-b74235492f03")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7777,6 +7945,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "90bd7b57-1b27-4ee1-ab3b-ceabcd489520")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
@@ -8148,6 +8328,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6d44f367-bf29-48f0-8d01-69b2442fa84d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9083ddbd-8881-4d3d-83ed-bb5a6bf3c59c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8532,6 +8724,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "57758f6a-f049-46a6-8df8-8b1455dbc93f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
@@ -8902,6 +9106,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a189e178-6c31-49f9-9e3f-3ac50ae4d529")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6bb94362-39ee-458a-97ba-baae0bf0ef4b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9371,6 +9587,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "34ef6f1a-9591-448e-bb53-bc6ba67e78bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
@@ -9742,6 +9970,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6ce998b-16aa-4049-a780-787ede085ce6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9533c5db-2bf2-43a1-ac81-02e6d1652ece")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10127,6 +10367,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6c6f0b2a-b9e2-4a31-9ddc-b5a9aa49fd95")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
@@ -10505,6 +10757,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "55896403-c5bf-4311-9515-554cdf9c1618")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
@@ -10876,6 +11140,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2568f02c-c6c1-4eaa-bdae-69b7333b5479")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cd20a7e3-219e-447b-9863-ee596d206e75")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11345,6 +11621,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9d61486a-a213-4896-9911-e58784b0d9af")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
@@ -11715,6 +12003,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e1bb3b76-f851-4185-875d-3085b3430af1")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6657fa51-b99d-44a3-8357-fd3dd649b25a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12099,6 +12399,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2799b49f-34df-4d33-ae81-31581e66035a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
@@ -12470,6 +12782,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ddeddc28-03ae-4a02-8a44-b5f1b8445d92")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ea7107b5-5219-4ebc-8a6a-1e69df82d6b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12939,6 +13263,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0e057c4b-9d04-458e-a48b-91d4847d3aa5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
@@ -13310,6 +13646,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a4cc79c5-6132-4294-9f6e-dc766e8f11b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "576cc2cb-77a0-4690-8a5f-8e0d9ff5e68e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13695,6 +14043,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "365663b6-dcf2-4db3-8519-7f3387d4451b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
@@ -14066,6 +14426,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "86fd4d6b-2567-4a11-bc61-dff593476689")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6087c8a6-a872-4121-88d6-ed4212a8767d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14451,6 +14823,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "407f2e36-eba6-4f40-8114-7db66279f001")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
@@ -14822,6 +15206,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "74eae43e-4ae6-4f6d-a869-36aa9cbf68a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "15d2679d-49b2-437e-80c1-429fbb27221b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15207,6 +15603,18 @@
 				)
 			)
 		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f099b0c8-441a-49b5-8d43-bd26b0315016")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
 		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
@@ -15577,6 +15985,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "856adbe6-1abf-4aa7-9100-96f9ae657b09")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0c5bb0db-3aef-4dcd-b150-71b1d371e597")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16039,6 +16459,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7c450949-56b5-4417-9ecd-91ed969b8f43")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C9900009224"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3938c3ec-7962-4639-8556-f78a1b9703a1")
 			(effects
 				(font
 					(size 1.27 1.27)
