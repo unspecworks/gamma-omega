@@ -24,7 +24,7 @@ _See the `README.md` in each folder for more information._
 
 ### Spacing
 
-18 x 17mm (Choc spacing with in a tighter grid)
+18 x 17mm (Choc spacing with a tighter grid)
 
 ### Dimensions
 
