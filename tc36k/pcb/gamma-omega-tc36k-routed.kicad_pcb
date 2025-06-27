@@ -165,7 +165,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
 			(end -7 -2)
@@ -543,7 +543,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
 			(end -7 -2)
@@ -921,7 +921,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
 			(end -7 -2)
@@ -1299,6 +1299,7 @@
 				)
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -1382,6 +1383,7 @@
 				)
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -1465,7 +1467,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -1843,7 +1845,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
 			(end -7 -2)
@@ -2221,7 +2223,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -2598,6 +2600,7 @@
 				)
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -10.5 -25.5)
 			(end -10.5 -25.2)
@@ -4582,6 +4585,7 @@
 				)
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -4665,6 +4669,7 @@
 				)
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -4748,7 +4753,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
 			(end -7 -2)
@@ -5126,7 +5131,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
 			(end -7 -2)
@@ -5504,7 +5509,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -5882,7 +5887,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -6260,7 +6265,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -6638,7 +6643,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
 			(end -7 -2)
@@ -7016,7 +7021,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -6.999999 -1.5)
 			(end -7 -2)
@@ -7394,7 +7399,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -7772,7 +7777,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -8150,7 +8155,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -8527,7 +8532,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -8904,7 +8909,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -9282,6 +9287,7 @@
 				)
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -9365,7 +9371,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
 			(end -7 -2)
@@ -9743,7 +9749,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
 			(end -7 -2)
@@ -10121,7 +10127,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
 			(end -7 -2)
@@ -10499,7 +10505,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -10877,7 +10883,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -11255,6 +11261,7 @@
 				)
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -11338,7 +11345,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -11715,7 +11722,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -12092,7 +12099,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -12470,7 +12477,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -12848,6 +12855,7 @@
 				)
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -12931,7 +12939,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
 			(end -7 -2)
@@ -13309,7 +13317,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
 			(end -7 -2)
@@ -13687,7 +13695,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
 			(end -7 -2)
@@ -14065,7 +14073,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -14443,7 +14451,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -1.5)
 			(end -7 -2)
@@ -14821,7 +14829,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -15199,7 +15207,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -15576,7 +15584,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
@@ -15954,6 +15962,7 @@
 				)
 			)
 		)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -16037,7 +16046,7 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -7 -6.2)
 			(end -2.52 -6.2)
