@@ -19,6 +19,9 @@ The sub-folder structure is as follows:
 * `ergogen/` contains the Erogen configuration defining the key-placement and wiring net.
   That generates a blank PCB design without traces.
 * `pcb/` contains the Erogen PCB edited to add the traces and silkscreen art.
+* `pcb/production/pcb/` contains the Gerbers file `gamma-omega-tc36k_v1.0.0.zip` for getting
+  the PCB fabricated at JLCPLC or similar, and BOM & position files which might work for
+  assembly with the hot-swap sockets (untested as not currently available).
 
 This needs different firmware to the original Gamma Omega design, see
 [Tutte Coxeter 36k firmware](https://github.com/peterjc/qmk_userspace/tree/main/keyboards/tutte_coxeter_36k).
