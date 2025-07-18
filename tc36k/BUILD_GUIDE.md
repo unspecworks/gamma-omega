@@ -41,3 +41,15 @@
 > [!TIP]
 > This PCB allows directly soldering the choc switches (rotated 180 degress) without using hot-swap sockets.
 > However, that will not work with the suggested case bottom (which has hon-swap cut-outs).
+
+## Firmware Flashing
+
+1. Download [tutte_coxeter_36k_vial.uf2](https://github.com/peterjc/qmk_userspace/releases/download/latest/tutte_coxeter_36k_vial.uf2) (the latest Vial firmware file).
+2. Press and hold the `BOOT` button while connecting the keyboard to your computer.
+3. Release the `BOOT` button when a Mass Storage device named "RPI-RP2" appears.
+4. Copy `tutte_coxeter_36k_vial.uf2` to this storage device.
+5. The storage will disconnect automatically, and the device will function as a keyboard when the firmware is successfully installed.
+6. Your OS will start the "Keyboard Setup Assistant" or equivalent.
+
+> [!TIP]
+> Flashing /before/ soldering in the PCB should catch a bad controller early on.
