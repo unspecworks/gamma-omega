@@ -40,7 +40,7 @@
 
 > [!TIP]
 > This PCB allows directly soldering the choc switches (rotated 180 degress) without using hot-swap sockets.
-> However, that will not work with the suggested case bottom (which has hon-swap cut-outs).
+> However, that will not work with the suggested case bottom (which has hot-swap cut-outs).
 
 ## Firmware Flashing
 1. Press and hold the `BOOT` button while connecting the controller to your computer by USB.
