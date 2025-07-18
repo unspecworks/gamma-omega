@@ -9,8 +9,8 @@
 # Parts List
 | Part | Quantity | Details | Source |
 |------------------|----------|-----------------|--------|
-| M2x2 Insert nut | 4 | 2mm length, 3.0mm diameter | |
-| M2x6 Insert nut | 4 | 6mm length, 3.0mm diameter | |
+| M2x2x3 Insert nut | 4 | M2 thread, 2mm length, 3.0mm outer diameter | |
+| M2x6x3 Insert nut | 4 | M2 thread, 6mm length, 3.0mm outer diameter | |
 | M2x6 Countersunk screw | 4 | 6mm length | |
 | M2x8 Countersunk screw | 4 | 8mm length (or 6mm × 8) | |
 | Feet bumpons | 6 | 8mm diameter, any height. | |
