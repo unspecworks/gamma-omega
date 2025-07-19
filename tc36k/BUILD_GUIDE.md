@@ -47,7 +47,8 @@
 2. Release the `BOOT` button when a Mass Storage device named "RPI-RP2" appears.
 3. Copy the `gamma_omega_vial.uf2` firmware file to this storage device.
 4. The storage will disconnect automatically, and the device will function as a keyboard when the firmware is successfully installed.
-5. Disconnect the USB cable.
+5. Try toggling CAPS LOCK on your main keyboard, the blue LED on the controller by the USB socket (opposite the red power LED) should come on.
+6. Disconnect the USB cable to the controller.
 
 > [!TIP]
 > Flashing *before* soldering in the PCB should catch a bad controller early on.
