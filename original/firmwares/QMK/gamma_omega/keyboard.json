@@ -15,6 +15,9 @@
         "lighting": false,
         "rgb_matrix": false
     },
+    "indicators": {
+        "caps_lock": "GP25"
+    },
     "matrix_size": {
         "cols": 12,
         "rows": 6
