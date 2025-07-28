@@ -7,12 +7,14 @@ A 36 Keys low-profile unibody ergonomic keyboard designed for portability and du
 *Portable? It may not be very compact, but you can still just toss it in your bag, right?*
 
 ## Variants
-There are currently two variants of Gamma Omega in this repository.
+There are currently 3 variants of Gamma Omega in this repository.
 
 |   | PCB | Diodeless | Switch | WIP |
 |-|-|-|-|-|
 | [Original](/original/) | Reversible |  | Choc v1, v2[^1] | |
 | [TC36k](/tc36k/) | Mono | :white_check_mark: | Choc v1 | :construction: |
+| [ULP](/ulp/) | Mono | :white_check_mark: | Cherry MX ULP | :construction: |
+
 
 [^1]: Limited by switch spacing.
 
