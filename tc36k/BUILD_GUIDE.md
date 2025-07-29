@@ -21,6 +21,7 @@
 | Top case | 1 | SLA Resin | JLC3DP |
 | Bottom case | 1 | SLA Resin | JLC3DP |
 | Pi Pico USB-C RP2040 | 1 | YD-RP2040 Variants are tested. [Info](https://circuitpython.org/board/vcc_gnd_yd_rp2040/) | [Aliexpress](https://a.aliexpress.com/_opuRQZl) ⚠️ |
+| 20-pin headers |  2 | Included with RP2040, ~2.5mm insulation height |  |
 
 > [!NOTE]
 > The bottom case and PCB has a hole allowing access to the boot button on the RP2040 controller, which is mounted facing down once fully assembled.
@@ -75,3 +76,22 @@
 
 ![Good circuit-test of hotswap](../images/tk36k-hotswap-test-good.jpg)
 ![Failing circuit-test of hotswap](../images/tk36k-hotswap-test-bad.jpg)
+
+## Pi Pico Installation
+
+1. Install the Pi Pico on the UP side of the PCB (opposite from where hotswap sockets were installed).
+2. Position the Pi Pico with its components facing down toward the PCB and the USB port facing outward.
+3. Use the two 2.54mm × 20-pin headers provided (with 2~2.5mm height insulators) to solder the Pi Pico onto the PCB. I had the short legs down. We do not use the three pins opposite the USB port.
+4. After soldering, carefully trim all protruding pins with a nipper.
+
+*Your PCB should look like this when completed (hopefully with neater soldering):*
+
+![Top side of assembled Gamma-Omega TC36k PCB with face-down RP2040 controller](../images/tk36k-assembled-pcb-top.jpg)
+![Bottom side of assembled Gamma-Omega TC36k PCB with hotswap sockets](../images/tk36k-assembled-pcb-back.jpg)
+![Side view of assembled Gamma-Omega TC36k PCB showing USB-C port](../images/tk36k-usb.jpg)
+
+> [!CAUTION]
+> For your safety, please wear safety glasses — trimmed pins can be sharp and may fly off during cutting.
+
+## Testing
+Use your favorite keystroke tester (or Vial's Key matrix tester) with a conductive tweezer to verify that all keys are working properly.
