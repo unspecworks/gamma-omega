@@ -97,4 +97,11 @@
 > For your safety, please wear safety glasses — trimmed pins can be sharp and may fly off during cutting.
 
 ## Testing
-Use your favorite keystroke tester (or Vial's Key matrix tester) with a conductive tweezer (or a switch as in one of the photos) to verify that all keys are working properly.
+Connect the USB-C port on the assembled PCB, and it should still register as a keyboard.
+The red power LED should light up (somewhat hidden).
+
+As in the firmware notes above, press Caps Lock on your main keyboard and confirm the
+blue LED lights up (again, somewhat hidden).
+
+Use your favorite keystroke tester (or Vial's Key matrix tester) with a conductive tweezer
+(or a switch as in one of the photos) to verify that all keys are working properly.
