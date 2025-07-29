@@ -67,7 +67,7 @@
 > Flashing *before* soldering in the PCB should catch a bad controller early on.
 
 ## Hotswap Socket Installation
-![hotswap](../images/bg-3.jpg)
+![hotswap](../images/tk36k-hotswap-orientation.jpg)
 
 1. Install hotswap sockets according to the PCB markings.
 2. Ensure correct orientation of the sockets; while they can physically fit in either direction, the bottom case cutouts are designed for the correct orientation only.
