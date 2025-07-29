@@ -79,6 +79,9 @@
 
 ## Pi Pico Installation
 
+![UP side of PCB with Raspberry Pi Pico face down, and header pins](../images/tk36k-pcb-top-and-rp2040.jpg)
+![DOWN side of PCB (with hotswap pads) with Raspberry Pi Pico face up, and header pins](../images/tk36k-pcb-bottom-and-rp2040.jpg)
+
 1. Install the Pi Pico on the UP side of the PCB (opposite from where hotswap sockets were installed).
 2. Position the Pi Pico with its components facing down toward the PCB and the USB port facing outward.
 3. Use the two 2.54mm × 20-pin headers provided (with 2~2.5mm height insulators) to solder the Pi Pico onto the PCB. I had the short legs down. We do not use the three pins opposite the USB port.
