@@ -84,17 +84,14 @@
 
 1. Install the Pi Pico on the UP side of the PCB (opposite from where hotswap sockets were installed).
 2. Position the Pi Pico with its components facing down toward the PCB and the USB port facing outward.
-
-![Assembled PCB sat on the bottom case to highlight the tight pin clearance](../images/tc36k-usb-bottom.jpg)
-
-3. Use the two 2.54mm × 20-pin headers provided (with 2~2.5mm height insulators) to solder the Pi Pico onto the PCB. I had the short legs on the hotswap side as clearance is tightest with the bottom case.We do not use the three pins opposite the USB port.
+3. Use the two 2.54mm × 20-pin headers provided (with ~2.5mm height insulators) to solder the Pi Pico onto the PCB. I had the short legs on the hotswap side as clearance is tightest with the bottom case (see below). We do not use the three pins opposite the USB port.
 4. After soldering, carefully trim all protruding pins with a nipper.
 
 *Your PCB should look like this when completed (hopefully with neater soldering):*
 
 ![Top side of assembled Gamma-Omega TC36k PCB with face-down RP2040 controller](../images/tc36k-assembled-pcb-top.jpg)
 ![Bottom side of assembled Gamma-Omega TC36k PCB with hotswap sockets](../images/tc36k-assembled-pcb-back.jpg)
-![Side view of assembled Gamma-Omega TC36k PCB showing USB-C port](../images/tc36k-usb.jpg)
+![Side view of assembled Gamma-Omega TC36k PCB on bottom case showing USB-C port](../images/tc36k-usb.jpg)
 
 > [!CAUTION]
 > For your safety, please wear safety glasses — trimmed pins can be sharp and may fly off during cutting.
