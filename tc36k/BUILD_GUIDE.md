@@ -67,8 +67,11 @@
 > Flashing *before* soldering in the PCB should catch a bad controller early on.
 
 ## Hotswap Socket Installation
-![hotswap](../images/tk36k-hotswap-orientation.jpg)
+![Hotswap switch orientation](../images/tk36k-hotswap-orientation.jpg)
 
 1. Install hotswap sockets according to the PCB markings.
 2. Ensure correct orientation of the sockets; while they can physically fit in either direction, the bottom case cutouts are designed for the correct orientation only.
-3. Test each hotswap with a circuit tester using the 180-degree rotated direct solder holes.
+3. Test the soldered connection of each hotswap pad with a circuit tester using the 180-degree rotated direct solder holes. That's 72 tests, but very easy!
+
+![Good circuit-test of hotswap](../images/tk36k-hotswap-test-good.jpg)
+![Failing circuit-test of hotswap](../images/tk36k-hotswap-test-bad.jpg)
