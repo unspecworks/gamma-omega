@@ -105,3 +105,38 @@ blue LED lights up (again, somewhat hidden).
 
 Use your favorite keystroke tester (or Vial's Key matrix tester) with a conductive tweezer
 (or a switch as in one of the photos) to verify that all keys are working properly.
+
+## Case Assembly
+![Install the nuts](../images/tk36k-top-case-nuts.jpg)
+
+1. Install 6mm threaded inserts with epoxy adhesive on the top case (upper side, near the USB port hole).
+2. Install 2mm threaded inserts with epoxy adhesive on the top case (lower side, opposite the USB port hole).
+
+> [!TIP]
+> You may not need the glue, mine seems fine with friction alone.
+
+![PCB placed inside the top case](../images/tk36k-open-case.jpg)
+
+3. Place the PCB onto the top case.
+4. Install switches into the top case while holding the PCB (hotswap sockets) in place.
+5. Place the bottom case onto the top case assembly.
+6. Secure with screws (8mm or 6mm for upper side, 6mm for lower side).
+
+> [!TIP]
+> Do not over-tighten: the screws should only need to support the bottom case's weight.
+
+> [!CAUTION]
+> My top case had warped ever so slightly, meaning the outer screws etc are also bending it straight.
+
+## DONE!
+
+Photos to follow.
+
+### Everything is done.
+
+how does it feel? Comfortable? Any issues? Does it work as you expected?
+
+Whatever the result, I’d really appreciate it if you shared your experience with the community.
+
+
+Thank you for building it!
