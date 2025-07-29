@@ -68,30 +68,33 @@
 > Flashing *before* soldering in the PCB should catch a bad controller early on.
 
 ## Hotswap Socket Installation
-![Hotswap switch orientation](../images/tk36k-hotswap-orientation.jpg)
+![Hotswap switch orientation](../images/tc36k-hotswap-orientation.jpg)
 
 1. Install hotswap sockets according to the PCB markings.
 2. Ensure correct orientation of the sockets; while they can physically fit in either direction, the bottom case cutouts are designed for the correct orientation only.
 3. Test the soldered connection of each hotswap pad with a circuit tester using the 180-degree rotated direct solder holes. That's 72 tests, but very easy!
 
-![Good circuit-test of hotswap](../images/tk36k-hotswap-test-good.jpg)
-![Failing circuit-test of hotswap](../images/tk36k-hotswap-test-bad.jpg)
+![Good circuit-test of hotswap](../images/tc36k-hotswap-test-good.jpg)
+![Failing circuit-test of hotswap](../images/tc36k-hotswap-test-bad.jpg)
 
 ## Pi Pico Installation
 
-![UP side of PCB with Raspberry Pi Pico face down, and header pins](../images/tk36k-pcb-top-and-rp2040.jpg)
-![DOWN side of PCB (with hotswap pads) with Raspberry Pi Pico face up, and header pins](../images/tk36k-pcb-bottom-and-rp2040.jpg)
+![UP side of PCB with Raspberry Pi Pico face down, and header pins](../images/tc36k-pcb-top-and-rp2040.jpg)
+![DOWN side of PCB (with hotswap pads) with Raspberry Pi Pico face up, and header pins](../images/tc36k-pcb-bottom-and-rp2040.jpg)
 
 1. Install the Pi Pico on the UP side of the PCB (opposite from where hotswap sockets were installed).
 2. Position the Pi Pico with its components facing down toward the PCB and the USB port facing outward.
-3. Use the two 2.54mm × 20-pin headers provided (with 2~2.5mm height insulators) to solder the Pi Pico onto the PCB. I had the short legs down. We do not use the three pins opposite the USB port.
+
+![Assembled PCB sat on the bottom case to highlight the tight pin clearance](../images/tc36k-usb-bottom.jpg)
+
+3. Use the two 2.54mm × 20-pin headers provided (with 2~2.5mm height insulators) to solder the Pi Pico onto the PCB. I had the short legs on the hotswap side as clearance is tightest with the bottom case.We do not use the three pins opposite the USB port.
 4. After soldering, carefully trim all protruding pins with a nipper.
 
 *Your PCB should look like this when completed (hopefully with neater soldering):*
 
-![Top side of assembled Gamma-Omega TC36k PCB with face-down RP2040 controller](../images/tk36k-assembled-pcb-top.jpg)
-![Bottom side of assembled Gamma-Omega TC36k PCB with hotswap sockets](../images/tk36k-assembled-pcb-back.jpg)
-![Side view of assembled Gamma-Omega TC36k PCB showing USB-C port](../images/tk36k-usb.jpg)
+![Top side of assembled Gamma-Omega TC36k PCB with face-down RP2040 controller](../images/tc36k-assembled-pcb-top.jpg)
+![Bottom side of assembled Gamma-Omega TC36k PCB with hotswap sockets](../images/tc36k-assembled-pcb-back.jpg)
+![Side view of assembled Gamma-Omega TC36k PCB showing USB-C port](../images/tc36k-usb.jpg)
 
 > [!CAUTION]
 > For your safety, please wear safety glasses — trimmed pins can be sharp and may fly off during cutting.
@@ -107,7 +110,7 @@ Use your favorite keystroke tester (or Vial's Key matrix tester) with a conducti
 (or a switch as in one of the photos) to verify that all keys are working properly.
 
 ## Case Assembly
-![Install the nuts](../images/tk36k-top-case-nuts.jpg)
+![Install the nuts](../images/tc36k-top-case-nuts.jpg)
 
 1. Install 6mm threaded inserts with epoxy adhesive on the top case (upper side, near the USB port hole).
 2. Install 2mm threaded inserts with epoxy adhesive on the top case (lower side, opposite the USB port hole).
@@ -115,7 +118,7 @@ Use your favorite keystroke tester (or Vial's Key matrix tester) with a conducti
 > [!TIP]
 > You may not need the glue, mine seems fine with friction alone.
 
-![PCB placed inside the top case](../images/tk36k-open-case.jpg)
+![PCB placed inside the top case](../images/tc36k-open-case.jpg)
 
 3. Place the PCB onto the top case.
 4. Install switches into the top case while holding the PCB (hotswap sockets) in place.
