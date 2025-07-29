@@ -42,13 +42,33 @@
 > This PCB allows directly soldering the choc switches (rotated 180 degress) without using hot-swap sockets.
 > However, that will not work with the suggested case bottom (which has hot-swap cut-outs).
 
+## Tools
+
+- Soldering tools.
+- Safety gears.
+- Wire cutters (to trim controller header pins).
+- Circuit tester.
+- USB cable and computer (for flashing the controller).
+- epoxy adhesive (or cyanoacrylate adhesive) for fixing insert nuts.
+
+> [!WARNING]
+> For your safety: Wear protective eyewear, be cautious of hot components, and ensure proper ventilation to avoid inhaling toxic fumes.
+
 ## Firmware Flashing
-1. Press and hold the `BOOT` button while connecting the controller to your computer by USB.
-2. Release the `BOOT` button when a Mass Storage device named "RPI-RP2" appears.
-3. Copy the `gamma_omega_vial.uf2` firmware file to this storage device.
-4. The storage will disconnect automatically, and the device will function as a keyboard when the firmware is successfully installed.
-5. Try toggling CAPS LOCK on your main keyboard, the blue LED on the controller by the USB socket (opposite the red power LED) should come on.
-6. Disconnect the USB cable to the controller.
+1. Download the [tutte_coxeter_36k_vial.uf2](https://github.com/peterjc/qmk_userspace/releases/download/latest/tutte_coxeter_36k_vial.uf2) firmware.
+2. Press and hold the `BOOT` button while connecting the controller to your computer by USB.
+3. Release the `BOOT` button when a Mass Storage device named "RPI-RP2" appears.
+4. Copy the `tutte_coxeter_36k_vial.uf2` firmware file to this storage device.
+5. The storage will disconnect automatically, and the device will function as a keyboard when the firmware is successfully installed.
+6. Try toggling CAPS LOCK on your main keyboard, the blue LED on the controller by the USB socket (opposite the red power LED) should come on.
+7. Disconnect the USB cable to the controller.
 
 > [!TIP]
 > Flashing *before* soldering in the PCB should catch a bad controller early on.
+
+## Hotswap Socket Installation
+![hotswap](../images/bg-3.jpg)
+
+1. Install hotswap sockets according to the PCB markings.
+2. Ensure correct orientation of the sockets; while they can physically fit in either direction, the bottom case cutouts are designed for the correct orientation only.
+3. Test each hotswap with a circuit tester using the 180-degree rotated direct solder holes.
