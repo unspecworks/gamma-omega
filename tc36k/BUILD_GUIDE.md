@@ -97,4 +97,4 @@
 > For your safety, please wear safety glasses — trimmed pins can be sharp and may fly off during cutting.
 
 ## Testing
-Use your favorite keystroke tester (or Vial's Key matrix tester) with a conductive tweezer to verify that all keys are working properly.
+Use your favorite keystroke tester (or Vial's Key matrix tester) with a conductive tweezer (or a switch as in one of the photos) to verify that all keys are working properly.
