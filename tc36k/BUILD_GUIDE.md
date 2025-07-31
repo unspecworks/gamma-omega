@@ -103,8 +103,7 @@ The red power LED should light up (somewhat hidden).
 As in the firmware notes above, press Caps Lock on your main keyboard and confirm the
 blue LED lights up (again, somewhat hidden).
 
-Use your favorite keystroke tester (or Vial's Key matrix tester) with a conductive tweezer
-(or a switch as in one of the photos) to verify that all keys are working properly.
+Use your favorite keystroke tester with a conductive tweezer to verify that all keys are working properly.
 
 ## Case Assembly
 ![Install the nuts](../images/tc36k-top-case-nuts.jpg)
@@ -126,7 +125,7 @@ Use your favorite keystroke tester (or Vial's Key matrix tester) with a conducti
 > Do not over-tighten: the screws should only need to support the bottom case's weight.
 
 > [!CAUTION]
-> My top case had warped ever so slightly, meaning the outer screws etc are also bending it straight.
+> My top case had warped ever so slightly, meaning the switches and outer screws are also bending it straight.
 
 ## DONE!
 
@@ -134,9 +133,9 @@ Photos to follow.
 
 ### Everything is done.
 
-how does it feel? Comfortable? Any issues? Does it work as you expected?
+How does it feel? Comfortable? Any issues? Does it work as you expected?
 
-Whatever the result, I’d really appreciate it if you shared your experience with the community.
+Whatever the result, we’d really appreciate it if you shared your experience with the community.
 
 
 Thank you for building it!
