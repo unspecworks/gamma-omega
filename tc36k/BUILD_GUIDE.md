@@ -118,8 +118,16 @@ Use your favorite keystroke tester with a conductive tweezer to verify that all 
 
 3. Place the PCB onto the top case.
 4. Install switches into the top case while holding the PCB (hotswap sockets) in place.
+
+![Switches installed, red pros with pink on the pinkie columns](../images/tc36k-switches.jpg)
+
+
+![Top case and PCB held together by the switches, ready for bottom case to be screwed in](../images/tc36k-back-off.jpg)
+
 5. Place the bottom case onto the top case assembly.
 6. Secure with screws (8mm or 6mm for upper side, 6mm for lower side).
+
+![Bottom case screwed in (grey resin)](../images/tc36k-back.jpg)
 
 > [!TIP]
 > Do not over-tighten: the screws should only need to support the bottom case's weight.
@@ -129,7 +137,13 @@ Use your favorite keystroke tester with a conductive tweezer to verify that all 
 
 ## DONE!
 
-Photos to follow.
+My assembled Gamma Omega TC36K, black resin top case with purple MBK keycaps
+(black for the homing keys), and a grey resin bottom case underneath, and a
+matching purple corded USB cable.
+
+![Assembled Gamma Omega TC36K keyboard in black and purple](../images/tc36k-purple.jpg)
+
+Both the power (red) and caps-lock (blue) LEDs can be seen by the USB port, but are quite discrete.
 
 ### Everything is done.
 

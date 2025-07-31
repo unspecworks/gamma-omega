@@ -26,6 +26,13 @@ The sub-folder structure is as follows:
 This needs different firmware to the original Gamma Omega design, see
 [Tutte Coxeter 36k firmware](https://github.com/peterjc/qmk_userspace/tree/main/keyboards/tutte_coxeter_36k).
 
+## Photos
+
+<img title="Assembled Gamma Omega TC36K keyboard in black and purple"
+src="../images/tc36k-purple.jpg" height="200" /> <img
+title="Inside the Gamma Omega TC36K with the bottom case off showing the no-diode PCB"
+src="../images/tc36k-back-off.jpg" height="200" />
+
 ## Credits
 
 [triliu/Heawood42](https://github.com/triliu/Heawood42) - the first no-diode keyboard using graph theory (42 key split)
