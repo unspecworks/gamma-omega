@@ -1,7 +1,7 @@
 
 # Gamma-Omega TC36K - mono PCB without diodes
 
-The original Gamma-Omega design has a left & right PCB (with the same reversible design),
+The [original Gamma-Omega](../original/) has a left & right PCB (with the same reversible design),
 joined at the middle with the controller daughter board itself.
 
 This folder contains an alternative larger single PCB design, intended to fit the same case.
