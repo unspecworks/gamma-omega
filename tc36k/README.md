@@ -1,5 +1,5 @@
 
-# Gamma-Omega TC36k - mono PCB without diodes
+# Gamma-Omega TC36K - mono PCB without diodes
 
 The original Gamma-Omega design has a left & right PCB (with the same reversible design),
 joined at the middle with the controller daughter board itself.
@@ -12,7 +12,7 @@ The cost saving for no diodes is minimal, but with far less parts and soldering,
 this design should be quicker and easier to assemble.
 
 Specfically, it uses a partial *Tutte Coxeter graph*, with only 26/30 nodes/vertices/pins,
-and 36/45 edges/switches/keys (thus "TC36k"), but still girth 8 for 6-key rollover. 
+and 36/45 edges/switches/keys (thus "TC36K"), but still girth 8 for 6-key rollover. 
 
 The sub-folder structure is as follows:
 
@@ -24,7 +24,7 @@ The sub-folder structure is as follows:
   assembly with the hot-swap sockets (untested as not currently available).
 
 This needs different firmware to the original Gamma Omega design, see
-[Tutte Coxeter 36k firmware](https://github.com/peterjc/qmk_userspace/tree/main/keyboards/tutte_coxeter_36k).
+[Tutte Coxeter 36K firmware](https://github.com/peterjc/qmk_userspace/tree/main/keyboards/tutte_coxeter_36k).
 
 ## Photos
 
