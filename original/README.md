@@ -9,6 +9,10 @@
     - [ZMK Firmware](https://github.com/unspecworks/zmk-config-gamma-omega)
 - [Build Guide](BUILD_GUIDE.md)
 
+## Photos
+
+<img alt="The original Gamma Omega keyboard" src="../images/gamma.jpg" height="200" /> <img alt="Two PCBs inside the original Gammma Omega" src="../images/gamma2.jpg" height="200" />
+
 ## PCB design
 
 This uses two identical reversible PCBs for the two halves of the keyboard, joined at the RP2040 controller.
