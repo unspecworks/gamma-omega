@@ -35,7 +35,7 @@ _See the `README.md` in each folder for more information._
 
 ### Weight
 
-full built: approx. 301g
+full built: approx. 301g (Original), 308g (TC36K)
 
 ### ergogen
 
