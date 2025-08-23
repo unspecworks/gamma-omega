@@ -268,7 +268,7 @@ outlines:
       where: true
       size: [16, 16]
 pcbs:
-  gamma-omega-gt36k:
+  gamma-omega-hesse:
     template: kicad8
     outlines:
       edge:

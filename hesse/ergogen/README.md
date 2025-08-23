@@ -1,4 +1,4 @@
-# gamma-omega-gt36k - Ergogen files
+# gamma-omega-hesse - Ergogen files
 
 This is based on the [ergogen](https://github.com/ergogen/ergogen) configuration file
 at `../../tc36k/config.yaml` which describes the Gamma-Omega TC36K keyboard mono PCB.
