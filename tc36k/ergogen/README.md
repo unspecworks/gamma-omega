@@ -3,12 +3,12 @@
 The original Gamma-Omega design has a left & right PCB (with the same reversible design),
 joined at the middle with the controller daughter board itself.
 The original [ergogen](https://github.com/ergogen/ergogen) configuration file at
-`../../ergogen/config.yaml` described the Gamma-Omega keyboard double-sided twin PCB design.
+`../../original/ergogen/config.yaml` described the Gamma-Omega keyboard double-sided twin PCB design.
 
 That was modified, initially using mirroring to make a single 36 key PCB.
 It now uses a full 40-pin Raspberry Pi Pico controller footprint.
 That required enlarging the top edge of the PCB by 2mm, which now matches the controller.
-This should still fit in the same case.
+This still fits in the same case.
 The wiring net is defined using a partial Tutte-Coxeter graph,
 with 26/30 nodes/vertices/pins and 36/45 edges/switches/keys.
 
