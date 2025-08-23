@@ -374,19 +374,3 @@ pcbs:
         where:
           ref: mirror_matrix_pinky_bottom
           shift: [88, -51]
-      # Silk-screen art
-      front_logo:
-        what: tc36k_logo
-        params:
-          layer: F.SilkS
-        where:
-          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
-          shift: [0, -15]
-      back_logo:
-        what: tc36k_logo
-        params:
-          layer: B.SilkS
-        where:
-          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
-          shift: [0, -15]
-
