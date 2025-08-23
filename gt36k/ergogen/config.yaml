@@ -1,0 +1,395 @@
+meta:
+  engine: 4.1.0
+units:
+  cx: 17.5
+  cy: 16.5
+  mg: 50
+points:
+  mirror:
+    ref: matrix_inner_top
+    distance: mg
+  zones:
+    matrix:
+      anchor.shift: [50,-100] # Fix KiCad placement
+      columns:
+        pinky:
+          key:
+            spread: 12
+            splay: 0
+            origin: [0, -10]
+            width: cx
+            height: cy
+          rows:
+            bottom:
+              bind: [0, 30, 7, 0]
+              column_net: C1
+              row_net: R1
+              mirror.column_net: C12
+              mirror.row_net: R12
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C1
+              row_net: R10
+              mirror.column_net: C12
+              mirror.row_net: R2
+            top:
+              bind: [7, 15, 20, 0]
+              column_net: C1
+              row_net: R2
+              mirror.column_net: C12
+              mirror.row_net: R13
+        ring:
+          key:
+            spread: cx - 1
+            stagger: cy * 0.5
+            splay: -10
+            origin: [0, -16]
+            width: cx
+            height: cy
+          rows:
+            bottom:
+              bind: [0, 0, 0, 0]
+              column_net: C2
+              row_net: R3
+              mirror.column_net: C10
+              mirror.row_net: R11
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C2
+              row_net: R2
+              mirror.column_net: C10
+              mirror.row_net: R10
+            top:
+              bind: [0, 10, 20, 0]
+              column_net: C2
+              row_net: R6
+              mirror.column_net: C10
+              mirror.row_net: R4
+        middle:
+          key:
+            shift: [0, 0]
+            spread: cx 
+            stagger: cy/3
+            splay: -8
+            origin: [0, -12]
+            width: cx
+            height: cy
+          rows:
+            bottom:
+              bind: [0, 0, 0, 0]
+              column_net: C3
+              row_net: R3
+              mirror.column_net: C8
+              mirror.row_net: R12
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C3
+              row_net: R4
+              mirror.column_net: C8
+              mirror.row_net: R9
+            top:
+              bind: [0, 0, 0, 0]
+              column_net: C3
+              row_net: R8
+              mirror.column_net: C8
+              mirror.row_net: R8
+        index:
+          key:
+            spread: cx - .6
+            stagger: -cy/2
+            splay: -4
+            origin: [0, -cx]
+            width: cx
+            height: cy
+          rows:
+            bottom:
+              bind: [0, 0, 0, 0]
+              column_net: C4
+              row_net: R5
+              mirror.column_net: C7
+              mirror.row_net: R7
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C4
+              row_net: R13
+              mirror.column_net: C7
+              mirror.row_net: R1
+            top:
+              bind: [0, 0, 10, 10]
+              column_net: C4
+              row_net: R4
+              mirror.column_net: C7
+              mirror.row_net: R8
+        inner:
+          key:
+            spread: cx+.5
+            stagger: -cy/4
+            splay: 0
+            origin: [0, -cy]
+            width: cx
+            height: cy
+          rows: 
+            bottom:
+              bind: [0, 0, 0, 0]
+              column_net: C5
+              row_net: R9
+              mirror.column_net: C6
+              mirror.row_net: R11
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C5
+              row_net: R5
+              mirror.column_net: C6
+              mirror.row_net: R7
+            top:
+              bind: [0, 40, 40, 0]
+              column_net: C5
+              row_net: R6
+              mirror.column_net: C6
+              mirror.row_net: R6
+      rows:
+        bottom:
+          padding: cy + .5
+        home:
+          padding: cy + .5
+        top:
+    thumb:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-cx * 1.5 - 1,-cy-1]
+      columns:
+        first:
+          key:
+            splay: 0
+            width: cx
+            height: cy
+          rows:
+            only:
+              column_net: C9
+              row_net: R10
+              mirror.column_net: C11
+              mirror.row_net: R12
+              bind: [15, 5, 0, 0]
+        second:
+          key:
+            spread: cx + .75
+            splay: -15
+            origin: [-cx/2, -cx/2]
+            width: cx
+            height: cy
+          rows:
+            only:
+              column_net: C9
+              row_net: R9
+              mirror.column_net: C11
+              mirror.row_net: R11
+              bind: [10, 5, 0, 5]
+        third:
+          key:
+            spread: cx + .75
+            splay: -15
+            origin: [-cx/2, -cx/2]
+            width: cx
+            height: cy
+          rows:
+            only:
+              column_net: C13
+              row_net: R13
+              mirror.column_net: C13
+              mirror.row_net: R7
+              bind: [15, 0, 0, 0]
+outlines:
+  raw:
+    - what: rectangle
+      where: true
+      bound: true
+      asym: both
+      size: [cx, cy]
+      corner: 0
+  pcb:
+    - what: outline
+      name: raw
+    - what: rectangle #center top horizontal (screw, controller pins, not USB area), mirrored
+      where: matrix_pinky_top
+      asym: both
+      # width and horizontal shift fine-tuned for right edge (USB cut-out),
+      # left edge is internal so not important.
+      # height and vertical offest fine-tuned for top to match automatic top-left cut
+      # (cover all the pins but still fit original case), bottom is internal so not important.
+      size: [100, 30]
+      adjust:
+        shift: [49.5, 0.25]
+      operation: add
+    - what: rectangle #center bottom horizontal (inc. screw) and (at top) bottom of USB cut-out
+      where: matrix_inner_top
+      asym: source
+      # width and horizontal shift set left & right edges, both both interal so some leaway.
+      # height and vertical shift fine-tuned for top to be bottom of USB cut-out,
+      # AND the bottom edge to match original & case.
+      size: [70, 94]
+      adjust:
+        shift: [mg / 2, -23.3]
+        orient: 22
+      operation: add
+
+  out-pcb:
+    - what: outline
+      name: pcb
+      expand: 1
+      joints: 1
+      fillet: 0
+
+  pretty-pcb-nf: # for drawing case.
+    - what: outline
+      name: pcb
+      expand: 1
+      joints: 1
+
+  pretty-pcb: # final kicad edgecuts.
+    - what: outline
+      name: pretty-pcb-nf
+      fillet: 0.5
+    - what: circle # boot button access cut-out
+      where: matrix_inner_top
+      asym: source
+      adjust:
+        shift: [(mg / 2) - 4.35, 12.35] 
+        orient: 22
+      radius: 2
+      operation: subtract
+
+  ## plate utils.
+  plate-cutout:
+    - what: rectangle
+      where: true
+      size: [13.8, 13.8]
+  plate-notch:
+    - what: rectangle
+      where: true
+      size: [16, 16]
+pcbs:
+  gamma-omega-tc36k:
+    template: kicad8
+    outlines:
+      edge:
+        outline: pretty-pcb
+    footprints:
+      choc_hotswap:
+        what: ceoloide/switch_choc_v1_v2
+        where: true
+        params:
+          from: "{{column_net}}"
+          to: "{{row_net}}"
+          side: F
+          include_corner_marks: true
+          include_keycap: true
+          keycap_height: cy
+          keycap_width: cx
+          reversible: false
+          solder: true
+          hotswap: true
+          choc_v2_support: false
+          outer_pad_width_front: 2.0
+          outer_pad_width_back: 2.0
+          keycap_3dmodel_filename: '${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Keycap_MBK_Black_1u.step'
+          keycap_3dmodel_xyz_rotation: [180, 0, 0]
+          keycap_3dmodel_xyz_offset: [0, 0, -8]
+          switch_3dmodel_filename: '${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step'
+          switch_3dmodel_xyz_rotation: [180, 0, 0]
+          switch_3dmodel_xyz_offset: [0, 0, -1.6]
+          hotswap_3dmodel_filename: '${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Hotswap.step'
+          hotswap_3dmodel_xyz_rotation: [180, 0, 0]
+          hotswap_3dmodel_xyz_offset: [0, 0, -1.6]
+      mcu:
+        what: VladAndral/pipico
+        where:
+          ref: matrix_inner_top
+        adjust:
+          shift: [mg / 2, 6.67] 
+          orient: 22
+        params:
+          mounted: front
+          # Top left as look at chips, going down
+          GP0: R8
+          GP1: R4
+          GP2: R6
+          GP3: C3
+          GP4: C4
+          GP5: R13
+          GP6: R5
+          GP7: C5
+          GP8: R2
+          GP9: R3
+          GP10: C2
+          GP11: C1
+          GP12: R1
+          GP13: R9
+          GP14: R10
+          GP15: C9
+          # Bottom right, going up
+          GP16: C13
+          GP17: R12
+          GP18: R11
+          GP19: C11
+          GP20: C12
+          GP21: C10
+          GP22: R7
+          GP26: C6
+          GP27: C7
+          GP28: C8
+      case-hole-lt:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: matrix_pinky_top
+          shift: [-7, 13.75]
+      case-hole-lt-mirror:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: mirror_matrix_pinky_top
+          shift: [-7, 13.75]
+      case-hole-lb:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: matrix_pinky_bottom
+          shift: [-7, -13.75]
+      case-hole-lb-mirror:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: mirror_matrix_pinky_bottom
+          shift: [-7, -13.75]
+      case-hole-rt:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: matrix_pinky_top
+          shift: [82, 11.75]
+      case-hole-rt-mirror:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: mirror_matrix_pinky_top
+          shift: [82, 11.75]
+      case-hole-rb:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: matrix_pinky_bottom
+          shift: [88, -51]
+      case-hole-rb-mirror:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: mirror_matrix_pinky_bottom
+          shift: [88, -51]
+      # Silk-screen art
+      front_logo:
+        what: tc36k_logo
+        params:
+          layer: F.SilkS
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [0, -15]
+      back_logo:
+        what: tc36k_logo
+        params:
+          layer: B.SilkS
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [0, -15]
+
