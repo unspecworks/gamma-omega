@@ -12,7 +12,7 @@ to follow the same partial *Tutte Coxeter graph* wiring as used in the
 [Gamma Omega TC36K](../tc36k/README.md) with 6-key roll over.
 
 Instead, this design uses a Nice!Nano v2 clone, the [SuperMini
-NRF52840](https://github.com/joric/nrfmicro/wiki/Alternatives#supermini-nrf52840),
+NRF52840](https://kriscables.com/supermini-nrf52840/),
 aka the TenStar Robot ProMicro NRF52840. This has built in BlueTooth, LiPro battery
 charging, but "only" 21 GPIO pins. The compromise means using a bipartite girth 6
 graph of 21 vertices and 36 edges, giving only 4-key roll over. This is the *Hesse
