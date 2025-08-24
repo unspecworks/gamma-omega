@@ -19,6 +19,11 @@ graph of 21 vertices and 36 edges, giving only 4-key roll over. This is the *Hes
 Configuration Incidence Graph*, also known as the
 [https://houseofgraphs.org/graphs/44164](incidence graph of the affine plane of order 3).
 
+The ProMicro footprint is only 17.78 by 33mm, smaller than the Raspberry Pi Pico at
+21 by 51mm. This should still mean the soldered header pins under the PCB *just*
+fit in generous cut-outs in the original bottom case design. We also need to consider
+the battery placement.
+
 ## Credits
 
 [triliu/Heawood42](https://github.com/triliu/Heawood42) - the first no-diode keyboard using graph theory (42 key split)
