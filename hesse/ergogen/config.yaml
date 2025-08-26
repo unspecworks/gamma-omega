@@ -249,6 +249,14 @@ outlines:
     - what: outline
       name: pretty-pcb-nf
       fillet: 0.5
+    - what: rectangle # battery cut-out, eg 3.7v 110mAh 301230
+      where: matrix_inner_top
+      asym: source
+      size: [35,15]  # for 12x30mm battery
+      adjust:
+        shift: [(mg / 2), -35]
+        orient: 22
+      operation: subtract
 
   ## plate utils.
   plate-cutout:
