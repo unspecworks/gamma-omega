@@ -23,21 +23,21 @@ points:
             bottom:
               bind: [0, 30, 7, 0]
               column_net: C1
-              row_net: R1
+              row_net: R2
               mirror.column_net: C12
-              mirror.row_net: R12
+              mirror.row_net: R6
             home:
               bind: [0, 0, 0, 0]
               column_net: C1
-              row_net: R10
+              row_net: R3
               mirror.column_net: C12
-              mirror.row_net: R2
+              mirror.row_net: R5
             top:
               bind: [7, 15, 20, 0]
               column_net: C1
-              row_net: R2
+              row_net: R1
               mirror.column_net: C12
-              mirror.row_net: R13
+              mirror.row_net: R9
         ring:
           key:
             spread: cx - 1
@@ -50,21 +50,21 @@ points:
             bottom:
               bind: [0, 0, 0, 0]
               column_net: C2
-              row_net: R3
-              mirror.column_net: C10
-              mirror.row_net: R11
+              row_net: R5
+              mirror.column_net: C11
+              mirror.row_net: R8
             home:
               bind: [0, 0, 0, 0]
               column_net: C2
-              row_net: R2
-              mirror.column_net: C10
-              mirror.row_net: R10
+              row_net: R4
+              mirror.column_net: C11
+              mirror.row_net: R4
             top:
               bind: [0, 10, 20, 0]
               column_net: C2
-              row_net: R6
-              mirror.column_net: C10
-              mirror.row_net: R4
+              row_net: R1
+              mirror.column_net: C11
+              mirror.row_net: R7
         middle:
           key:
             shift: [0, 0]
@@ -78,21 +78,21 @@ points:
             bottom:
               bind: [0, 0, 0, 0]
               column_net: C3
-              row_net: R3
-              mirror.column_net: C8
-              mirror.row_net: R12
+              row_net: R6
+              mirror.column_net: C10
+              mirror.row_net: R3
             home:
               bind: [0, 0, 0, 0]
               column_net: C3
-              row_net: R4
-              mirror.column_net: C8
+              row_net: R7
+              mirror.column_net: C10
               mirror.row_net: R9
             top:
               bind: [0, 0, 0, 0]
               column_net: C3
-              row_net: R8
-              mirror.column_net: C8
-              mirror.row_net: R8
+              row_net: R1
+              mirror.column_net: C10
+              mirror.row_net: R7
         index:
           key:
             spread: cx - .6
@@ -105,21 +105,21 @@ points:
             bottom:
               bind: [0, 0, 0, 0]
               column_net: C4
-              row_net: R5
-              mirror.column_net: C7
-              mirror.row_net: R7
+              row_net: R8
+              mirror.column_net: C9
+              mirror.row_net: R5
             home:
               bind: [0, 0, 0, 0]
               column_net: C4
-              row_net: R13
-              mirror.column_net: C7
-              mirror.row_net: R1
+              row_net: R9
+              mirror.column_net: C9
+              mirror.row_net: R8
             top:
               bind: [0, 0, 10, 10]
               column_net: C4
-              row_net: R4
-              mirror.column_net: C7
-              mirror.row_net: R8
+              row_net: R1
+              mirror.column_net: C9
+              mirror.row_net: R3
         inner:
           key:
             spread: cx+.5
@@ -132,21 +132,21 @@ points:
             bottom:
               bind: [0, 0, 0, 0]
               column_net: C5
-              row_net: R9
-              mirror.column_net: C6
-              mirror.row_net: R11
+              row_net: R2
+              mirror.column_net: C8
+              mirror.row_net: R6
             home:
               bind: [0, 0, 0, 0]
               column_net: C5
-              row_net: R5
-              mirror.column_net: C6
-              mirror.row_net: R7
+              row_net: R4
+              mirror.column_net: C8
+              mirror.row_net: R3
             top:
               bind: [0, 40, 40, 0]
               column_net: C5
-              row_net: R6
-              mirror.column_net: C6
-              mirror.row_net: R6
+              row_net: R9
+              mirror.column_net: C8
+              mirror.row_net: R4
       rows:
         bottom:
           padding: cy + .5
@@ -165,10 +165,10 @@ points:
             height: cy
           rows:
             only:
-              column_net: C9
-              row_net: R10
-              mirror.column_net: C11
-              mirror.row_net: R12
+              column_net: C6
+              row_net: R2
+              mirror.column_net: C7
+              mirror.row_net: R8
               bind: [15, 5, 0, 0]
         second:
           key:
@@ -179,10 +179,10 @@ points:
             height: cy
           rows:
             only:
-              column_net: C9
-              row_net: R9
-              mirror.column_net: C11
-              mirror.row_net: R11
+              column_net: C6
+              row_net: R7
+              mirror.column_net: C7
+              mirror.row_net: R6
               bind: [10, 5, 0, 5]
         third:
           key:
@@ -193,10 +193,10 @@ points:
             height: cy
           rows:
             only:
-              column_net: C13
-              row_net: R13
-              mirror.column_net: C13
-              mirror.row_net: R7
+              column_net: C6
+              row_net: R5
+              mirror.column_net: C7
+              mirror.row_net: R2
               bind: [15, 0, 0, 0]
 outlines:
   raw:
@@ -321,29 +321,29 @@ pcbs:
           reversible: false
           include_extra_pins: true
           # Top left as look at chips, going down
-          P1: C1
-          P0: C2
-          P2: C3
-          P3: C4
-          P4: C5
-          P5: C6
-          P6: C7
-          P7: C8
-          P8: C9
-          P9: C10
+          P1: R1
+          P0: C3
+          P2: C4
+          P3: C5
+          P4: C10
+          P5: C9
+          P6: C8
+          P7: C2
+          P8: C1
+          P9: C6
           # Bottom right, going up
-          P10: C11
-          P16: C12
-          P14: R1
-          P15: R2
+          P10: R2
+          P16: R5
+          P14: R6
+          P15: R8
           P18: R3
           P19: R4
-          P20: R5
-          P21: R6
+          P20: R9
+          P21: R7
           # Extra trio in middle
-          P101: R7
-          P102: R8
-          P107: R9          
+          P101: C11
+          P102: C12
+          P107: C7
       case-hole-lt:
         what: ceoloide/mounting_hole_plated
         where:
