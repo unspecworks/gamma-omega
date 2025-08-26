@@ -280,7 +280,7 @@ pcbs:
         params:
           from: "{{column_net}}"
           to: "{{row_net}}"
-          side: F
+          side: B
           include_corner_marks: true
           include_keycap: true
           keycap_height: cy
