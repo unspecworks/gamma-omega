@@ -288,7 +288,11 @@ pcbs:
           reversible: false
           solder: true
           hotswap: true
+          # Workaround for footprint oddity (logged as issue 64)
+          # to get v2 centre hole, but no stabilizers etc added:
           choc_v2_support: true
+          include_stabilizer_pad: false
+          center_hole_diameter: 5.0
           outer_pad_width_front: 2.0
           outer_pad_width_back: 2.0
           keycap_3dmodel_filename: '${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Keycap_MBK_Black_1u.step'
