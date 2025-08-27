@@ -325,9 +325,9 @@ pcbs:
           P0: C3
           P2: C4
           P3: C5
-          P4: C10
-          P5: C9
-          P6: C8
+          P4: R4
+          P5: R3
+          P6: R8
           P7: C2
           P8: C1
           P9: C6
@@ -335,9 +335,9 @@ pcbs:
           P10: R2
           P16: R5
           P14: R6
-          P15: R8
-          P18: R3
-          P19: R4
+          P15: C8
+          P18: C9
+          P19: C10
           P20: R9
           P21: R7
           # Extra trio in middle
