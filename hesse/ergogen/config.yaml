@@ -321,8 +321,8 @@ pcbs:
           reversible: false
           include_extra_pins: true
           # Top left as look at chips, going down
-          P1: R1
-          P0: C3
+          P1: C3
+          P0: R1
           P2: C4
           P3: C5
           P4: R4
