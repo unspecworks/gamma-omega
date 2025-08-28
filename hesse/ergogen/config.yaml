@@ -254,7 +254,7 @@ outlines:
       asym: source
       size: [35,15]  # for 12x30mm battery
       adjust:
-        shift: [(mg / 2), -35]
+        shift: [(mg / 2), -38]
         orient: 22
       operation: subtract
 
