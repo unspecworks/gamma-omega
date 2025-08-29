@@ -304,6 +304,18 @@ pcbs:
           hotswap_3dmodel_filename: '${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Hotswap.step'
           hotswap_3dmodel_xyz_rotation: [180, 0, 0]
           hotswap_3dmodel_xyz_offset: [0, 0, -1.6]
+      battery_connector:
+        what: ceoloide/battery_connector_jst_ph_2
+        where:
+          ref: matrix_inner_bottom
+        adjust:
+          shift: [-9,-13.5]
+          orient: 22+90
+        params:
+          side: F
+          # We have no power switch between RAW and BAT_P
+          BAT_N: GND
+          BAT_P: RAW
       mcu:
         what: ceoloide/mcu_supermini_nrf52840
         where:
