@@ -426,24 +426,121 @@ pcbs:
       text1:
         what: ceoloide/utility_text
         params:
-          reversible: true
+          side: B
+          mirrored: true
           text: Hesse
-          width: 1.6
-          height: 1.6
-          thickness: 0.32
+          width: 3.5
+          height: 3.5
+          thickness: 0.5
         where:
           aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
-          shift: [-17, -20]
+          shift: [20, -17]
       text2:
         what: ceoloide/utility_text
         params:
-          reversible: true
+          side: B
+          mirrored: true
           text: Configuration
           width: 1.6
           height: 1.6
           thickness: 0.32
         where:
           aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
-          shift: [-17, -23]
-        
+          shift: [20, -21]
+      text3:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: of 9 points,
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [20, -24]
+      text4:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: on 12 lines.
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [20, -27]
+      text5:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: Keyboard uses its
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [-20, -16]
+      text6:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: Incidence Graph,
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [-20, -19]
+      text7:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: 9+12=21 nodes,
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [-20, -22]
+      text8:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: (GPIO pins),
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [-20, -25]
+      text9:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: 36 edges
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [-20, -28]
+      text10:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: (keys).
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [-20, -31]
 
