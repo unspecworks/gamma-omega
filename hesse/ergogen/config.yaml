@@ -543,4 +543,25 @@ pcbs:
         where:
           aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
           shift: [-20, -31]
-
+      text_version1:
+        what: ceoloide/utility_text
+        params:
+          reversible: true
+          text: Designed Scotland August 2025,
+          width: 1.4
+          height: 1.4
+          thickness: 0.1875
+        where:
+          ref: matrix_pinky_bottom
+          shift: [12.5, -11.5]
+      text_version2:
+        what: ceoloide/utility_text
+        params:
+          reversible: true
+          text: Ergogen v4.1.0 & KiCad v9.0.2
+          width: 1.4
+          height: 1.4
+          thickness: 0.1875
+        where:
+          ref: matrix_pinky_bottom
+          shift: [12, -14]
