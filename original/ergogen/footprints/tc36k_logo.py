@@ -5,7 +5,7 @@ SIZE = 30
 FIG_RADIUS = 23.0  # mm
 NODE_RADIUS = 1.25  # mm
 
-print("""// TC36k logo - partial Tutt-Coxeter graph for 36 keys
+print("""// TC36k logo - partial Tutte-Coxeter graph for 36 keys
 // Params: None
 
 module.exports = {
@@ -29,7 +29,7 @@ module.exports = {
 """)
 
 offset = 0.5 * (SIZE + 1 - nodes) / SIZE  # zero straight down
-# Draw cirles for the nodes (altenate filled/not for the bipartite row/col scanning):
+# Draw circles for the nodes (alternate filled/not for the bipartite row/col scanning):
 for i in range(nodes):
     angle = i / SIZE + offset
     x = FIG_RADIUS * math.sin(angle * 2 * math.pi)
