@@ -565,3 +565,25 @@ pcbs:
         where:
           ref: matrix_pinky_bottom
           shift: [12, -14]
+      text_descr1:
+        what: ceoloide/utility_text
+        params:
+          reversible: true
+          text: Gamma Omega 'Hesse' v1.0.0
+          width: 1.4
+          height: 1.4
+          thickness: 0.1875
+        where:
+          ref: mirror_matrix_pinky_bottom
+          shift: [11.4, -11.5]
+      text_descr2:
+        what: ceoloide/utility_text
+        params:
+          reversible: true
+          text: Diode-free using Graph Theory
+          width: 1.4
+          height: 1.4
+          thickness: 0.1875
+        where:
+          ref: mirror_matrix_pinky_bottom
+          shift: [12, -14]
