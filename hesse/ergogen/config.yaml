@@ -576,7 +576,7 @@ pcbs:
         what: ceoloide/utility_text
         params:
           reversible: true
-          text: Ergogen v4.1.0 & KiCad v9.0.2
+          text: Ergogen v4.1.0 & KiCad v9.0.4
           width: 1.4
           height: 1.4
           thickness: 0.1875
