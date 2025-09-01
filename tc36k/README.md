@@ -25,7 +25,7 @@ The sub-folder structure is as follows:
 
 This needs different firmware to the original Gamma Omega design, see
 [Tutte Coxeter 36K firmware (QMK)](https://github.com/peterjc/qmk_userspace/tree/main/keyboards/tutte_coxeter_36k)
-or using [ZMK](https://github.com/peterjc/zmk-keyboard-firmware/tree/main/boards/shields/tc36k).
+or using [ZMK](https://github.com/peterjc/zmk-keyboard-graph-theory/tree/main/boards/shields/tc36k).
 
 ## Photos
 
