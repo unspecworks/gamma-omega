@@ -24,7 +24,8 @@ The sub-folder structure is as follows:
   assembly with the hot-swap sockets (untested as not currently available).
 
 This needs different firmware to the original Gamma Omega design, see
-[Tutte Coxeter 36K firmware](https://github.com/peterjc/qmk_userspace/tree/main/keyboards/tutte_coxeter_36k).
+[Tutte Coxeter 36K firmware (QMK)](https://github.com/peterjc/qmk_userspace/tree/main/keyboards/tutte_coxeter_36k)
+or using [ZMK](https://github.com/peterjc/zmk-keyboard-graph-theory/tree/main/boards/shields/tc36k).
 
 ## Photos
 
