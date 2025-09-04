@@ -249,12 +249,14 @@ outlines:
     - what: outline
       name: pretty-pcb-nf
       fillet: 0.5
-    - what: rectangle # battery cut-out, eg 3.7v 110mAh 301230
+    - what: rectangle # battery cut-out
+      # eg LP301230 - 110mAh 3.7V LiPo battery, about 15 x 35 x 3mm
+      # eg LP502030 - 250mAh 3.7V LiPo battery, just over 20 x 30 x 5mm
       where: matrix_inner_top
       asym: source
-      size: [37,15]  # for 12x30mm battery, off centre due to JST connector
+      size: [39,24]
       adjust:
-        shift: [(mg / 2) + 5, -38]
+        shift: [(mg / 2) + 3, -33.5]  # off centre due to JST connector
         orient: 22
       operation: subtract
 
@@ -327,7 +329,7 @@ pcbs:
         where:
           ref: matrix_inner_bottom
         adjust:
-          shift: [-9,-13.5]
+          shift: [-10,-13]
           orient: 22+90
         params:
           side: F
@@ -339,13 +341,13 @@ pcbs:
         where:
           ref: matrix_inner_bottom
         adjust:
-          shift: [-2,-17.25]
+          shift: [-3,-16.75]
           orient: 22+90
         params:
           side: F
           # We have no power switch between RAW and BAT_P
           BAT_N: GND
-          BAT_P: RAW         
+          BAT_P: RAW
       mcu:
         what: ceoloide/mcu_supermini_nrf52840
         where:
