@@ -355,8 +355,8 @@ pcbs:
         adjust:
           # The Supermini NRF52840 is reportedly 17.78mm wide, 33.00mm long
           # (and 30.48mm between the center of the top and bottom pins).
-          # The original Raspberry Pi Pico is also 17.78mm wide, but 51mm long
-          # (and 48.26mm between the center of the top and bottom pins).
+          # The original Raspberry Pi Pico is 21mm wide (17.78mm between the pins),
+          # and 51mm long (48.26mm between the center of the top and bottom pins).
           # This is 51 - 33 = 18mm shorter, so adjust the original y-offset by
           # half of that - so the center is 9mm higher up:
           shift: [mg / 2, 15.67] 
