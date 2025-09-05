@@ -25,6 +25,16 @@ Writing output to disk...
 Done.
 ```
 
+To try to merge any changes with the manually routed PCB, use Ergogen Helper:
+
+```
+❯ cp output/pcbs/gamma-omega-hesse.kicad_pcb hesse/pcb/gamma-omega-hesse-routed-new.kicad_pcb && \
+    /Applications/KiCad/KiCad.app/Contents/Frameworks/Python.framework/Versions/Current/bin/python3 \
+    resources/kb_ergogen_helper/ergogen_helper.py copy-traces \
+    hesse/pcb/gamma-omega-hesse-routed.kicad_pcb hesse/pcb/gamma-omega-hesse-routed-new.kicad_pcb
+```
+
+
 ## Credits
 
 [triliu/Heawood42](https://github.com/triliu/Heawood42) - the first no-diode keyboard using graph theory (42 key split)
