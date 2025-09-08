@@ -331,10 +331,13 @@ pcbs:
         what: reset_switch_1825027-8
         where:
           ref: mirror_matrix_pinky_top
-          shift: [68, 12.7]
+          shift: [68, 13.5]
           rotate: 180
         params:
-          reversible: true
+          reset_switch_3dmodel_filename: "${KICAD9_3RD_PARTY}/c-1825027-8-g-3d.stp"
+          reset_switch_3dmodel_xyz_offset: [2.25, -2.6, 4.0]
+          reset_switch_3dmodel_xyz_rotation: [-90, 0, 0]
+          reset_switch_3dmodel_xyz_scale: [1, 1, 1]
       battery_connector_jst:
         what: ceoloide/battery_connector_jst_ph_2
         where:

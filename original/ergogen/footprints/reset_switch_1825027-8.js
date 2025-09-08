@@ -32,6 +32,10 @@ module.exports = {
     side: 'F',
     reversible: false,
     include_silkscreen: true,
+    reset_switch_3dmodel_filename: '',
+    reset_switch_3dmodel_xyz_offset: [0, 0, 0],
+    reset_switch_3dmodel_xyz_rotation: [0, 0, 0],
+    reset_switch_3dmodel_xyz_scale: [1, 1, 1],
     from: { type: 'net', value: 'GND' },
     to: { type: 'net', value: 'RST' },
   },
@@ -85,6 +89,15 @@ module.exports = {
     (fp_line (start -1.432999 -1.155674) (end -1.432999 3.470101) (layer "B.SilkS") (width 0.15))
     (fp_line (start 5.933001 -3.683) (end 5.933001 -4.137199) (layer "B.SilkS") (width 0.15))
         `
+
+    const reset_switch_3dmodel = `
+    (model ${p.reset_switch_3dmodel_filename}
+      (offset (xyz ${p.reset_switch_3dmodel_xyz_offset[0]} ${p.reset_switch_3dmodel_xyz_offset[1]} ${p.reset_switch_3dmodel_xyz_offset[2]}))
+      (scale (xyz ${p.reset_switch_3dmodel_xyz_scale[0]} ${p.reset_switch_3dmodel_xyz_scale[1]} ${p.reset_switch_3dmodel_xyz_scale[2]}))
+      (rotate (xyz ${p.reset_switch_3dmodel_xyz_rotation[0]} ${p.reset_switch_3dmodel_xyz_rotation[1]} ${p.reset_switch_3dmodel_xyz_rotation[2]}))
+    )
+    `
+
     const common_end = `
     (pad "1" thru_hole circle (at 0 0) (size 1.5 1.5) (drill 1.0) (layers *.Cu *.Mask) ${p.to.str})
     (pad "2" thru_hole circle (at 4.5 0) (size 1.5 1.5) (drill 1.0) (layers *.Cu *.Mask) ${p.from.str})
@@ -92,6 +105,7 @@ module.exports = {
     (pad "4" thru_hole circle (at 5.755 -2.5) (size 1.8 1.8) (drill 1.3) (layers *.Cu *.Mask))
   )
         `
+
     let final = common_start;
     if (p.side == "F" || p.reversible) {
       if (p.include_silkscreen) {
@@ -102,6 +116,9 @@ module.exports = {
       if (p.include_silkscreen) {
         final += silkscreen_back
       }
+    }
+    if (p.reset_switch_3dmodel_filename) {
+      final += reset_switch_3dmodel
     }
     final += common_end;
     return final;
