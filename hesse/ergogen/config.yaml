@@ -327,6 +327,14 @@ pcbs:
           net: "{{column_net}}"
           route: "b(-7,5.9)(-3.5,11)"
           width: 0.2
+      reset_switch:
+        what: reset_switch_1825027-8
+        where:
+          ref: mirror_matrix_pinky_top
+          shift: [68, 12.7]
+          rotate: 180
+        params:
+          reversible: true
       battery_connector_jst:
         what: ceoloide/battery_connector_jst_ph_2
         where:
