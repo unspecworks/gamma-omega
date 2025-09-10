@@ -311,21 +311,21 @@ pcbs:
         where: true
         params:
           net: "{{row_net}}"
-          route: "b(-4.9,3.8)(4.0,3.8)(8.0,-0.2)(8.0,-3.75)"
+          route: "b(-4.9,3.8)(-4.1,3.0)(4.8,3.0)(8.0,-0.2)(8.0,-3.75)"
           width: 0.2
       column_route:
         what: ceoloide/utility_router
         where: true
         params:
           net: "{{column_net}}"
-          route: "b(-3.5,-5.7)(-7,-2.2)(-7,5.9)(0,5.9)"
+          route: "b(-3.5,-5.7)(-7.8,-1.4)(-7.8,6.6)(-0.7,6.6)(0,5.9)"
           width: 0.2
       column_route_down:
         what: ceoloide/utility_router
         where: [ [-/.*bottom/, -/thumb.*/] ]
         params:
           net: "{{column_net}}"
-          route: "b(-7,5.9)(-3.5,11)"
+          route: "b(-7.8,6.6)(-3.5,11)"
           width: 0.2
       reset_switch:
         what: reset_switch_1825027-8
