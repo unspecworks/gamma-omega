@@ -362,7 +362,7 @@ pcbs:
           # and 51mm long (48.26mm between the center of the top and bottom pins).
           # This is 51 - 33 = 18mm shorter, so adjust the original y-offset by
           # half of that - so the center is 9mm higher up:
-          shift: [mg / 2, 15.67] 
+          shift: [mg / 2, 15.67]
           orient: 22
         params:
           reversible: false
@@ -391,6 +391,15 @@ pcbs:
           P101: C11
           P102: C12
           P107: C7
+      keep-out:
+        what: ceoloide/utility_keepout_zone
+        params:
+          tracks_allowed: false
+          vias_allowed: false
+          pads_allowed: false
+          copperpour_allowed: false
+          outline_type: full
+          points: [[168.35,83.45],[176.65,104.1],[135.75,104.1],[144,83.45],[149.45,83.45],[150.3,82.6],[150.3,81.1],[151.5,80.0],[162.0,80.0],[163.0,81.1],[163.0,82.6],[163.85,83.45]]
       case-hole-lt:
         what: ceoloide/mounting_hole_plated
         where:
