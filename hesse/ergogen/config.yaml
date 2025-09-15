@@ -254,9 +254,9 @@ outlines:
       # eg LP502030 - 250mAh 3.7V LiPo battery, just over 20 x 30 x 5mm
       where: matrix_inner_top
       asym: source
-      size: [39,24]
+      size: [41,24]
       adjust:
-        shift: [(mg / 2) - 3, -33.5]  # off centre due to JST connector
+        shift: [(mg / 2) - 0.5, -33.5]  # off centre due to JST connector
         orient: 22
       operation: subtract
 
@@ -342,22 +342,10 @@ pcbs:
         what: ceoloide/battery_connector_jst_ph_2
         asym: source
         where:
-          ref: matrix_inner_top
+          ref: mirror_matrix_inner_bottom
+          shift: [15.6,-5.25]
         adjust:
-          shift: [41,49.6]
-          orient: 22-90
-        params:
-          side: F
-          # We have no power switch between RAW and BAT_P
-          BAT_N: GND
-          BAT_P: RAW
-      battery_connector_molex:
-        what: ceoloide/battery_connector_molex_pico_ezmate_1x02
-        asym: source
-        where: matrix_inner_top
-        adjust:
-          shift: [34, 46]
-          orient: 22-90
+          orient: 180
         params:
           side: F
           # We have no power switch between RAW and BAT_P
