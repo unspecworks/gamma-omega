@@ -331,7 +331,7 @@ pcbs:
         what: reset_switch_1825027-8
         where:
           ref: mirror_matrix_pinky_top
-          shift: [68, 13.5]
+          shift: [70.15, 13.5]
           rotate: 180
         params:
           reset_switch_3dmodel_filename: "${KICAD9_3RD_PARTY}/c-1825027-8-g-3d.stp"
