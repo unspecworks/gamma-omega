@@ -4605,6 +4605,18 @@
 			(uuid "69b755e6-152a-4c1a-bc2a-ed33b5567db3")
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../../cases/top.step"
+			(opacity 0.4)
+			(offset
+				(xyz 156.65 76 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
+			)
+		)
 	)
 	(footprint "ceoloide:mounting_hole_plated"
 		(layer "F.Cu")
