@@ -119,7 +119,7 @@
 		(uuid "09357188-8650-4eea-817a-fc46e443d36a")
 		(at 89.091997 90.020491 -18)
 		(property "Reference" "S7"
-			(at -0.000001 8.8 342)
+			(at -0.000001 8.8 162)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b27c17e1-d55f-49e7-900f-050de97aa10d")
@@ -131,7 +131,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 342)
+			(at 0 0 162)
 			(layer "F.Fab")
 			(uuid "2850b304-d30b-493b-a7ef-0d69b83872d6")
 			(effects
@@ -142,7 +142,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 342)
+			(at 0 0 162)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1363cf4c-12c1-4848-8ecd-a0f798a289dd")
@@ -154,7 +154,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 342)
+			(at 0 0 162)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "23e12ee3-83b2-40db-ad47-72b96863cf7d")
@@ -478,7 +478,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 -180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -509,7 +509,7 @@
 		(uuid "0968a6e8-652b-4439-9c53-3b7b45e20493")
 		(at 99.598575 57.68457 -18)
 		(property "Reference" "S9"
-			(at -0.000001 8.8 342)
+			(at -0.000001 8.8 162)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "390a47d7-90bb-4ddf-a2b3-bc8d1e9401ac")
@@ -521,7 +521,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 342)
+			(at 0 0 162)
 			(layer "F.Fab")
 			(uuid "01aeab6e-fb8c-4ec3-a39a-86609e918831")
 			(effects
@@ -532,7 +532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 342)
+			(at 0 0 162)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f7820f76-8e24-4065-a135-30385f7b539d")
@@ -544,7 +544,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 342)
+			(at 0 0 162)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "de274509-da9a-4fec-9114-130e251e0f5f")
@@ -868,7 +868,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -899,7 +899,7 @@
 		(uuid "09842e6a-2981-46a6-8946-4d5dfa8575e0")
 		(at 87.085962 120.092106 -22)
 		(property "Reference" "S16"
-			(at 0 8.8 338)
+			(at 0 8.8 158)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "5f0fb6a7-cdd0-4ddf-ab60-a6585ebccaec")
@@ -911,7 +911,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(uuid "6208f207-2bcf-48fb-b578-86e5079cac7a")
 			(effects
@@ -922,7 +922,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2b8867a9-7cd8-451c-8994-950c55a96459")
@@ -934,7 +934,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "09349f4a-8107-44f8-b376-da996f6c3ae9")
@@ -1258,7 +1258,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 -180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -1816,7 +1816,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -1847,7 +1847,7 @@
 		(uuid "2e976328-6fb6-4e43-bfb3-607164d26ac7")
 		(at 125.27565 98.312293 -22)
 		(property "Reference" "S14"
-			(at 0 8.8 338)
+			(at 0 8.8 158)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "eb87f710-9ad3-4a70-a075-f32cb66da2da")
@@ -1859,7 +1859,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(uuid "0532331f-f096-4030-ae98-88007be403ca")
 			(effects
@@ -1870,7 +1870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c048404-b751-4b37-9616-933fcb226f14")
@@ -1882,7 +1882,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0dba18d6-d554-4a73-b017-0d0ceb95054b")
@@ -2206,7 +2206,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 -180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -2595,7 +2595,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -4618,7 +4618,7 @@
 			)
 		)
 		(model "${KIPRJMOD}/../../cases/bottom.step"
-			(opacity 0.4000)
+			(opacity 0.3900)
 			(offset
 				(xyz 156.65 76 0)
 			)
@@ -4803,7 +4803,7 @@
 		(uuid "407873ff-c676-44cd-b793-6469430eae28")
 		(at 75.182409 58.509612 -10)
 		(property "Reference" "S6"
-			(at 0 8.8 350)
+			(at 0 8.8 170)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "052e3547-ea46-4888-992f-42f3ee508163")
@@ -4815,7 +4815,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 350)
+			(at 0 0 170)
 			(layer "F.Fab")
 			(uuid "cf5dd942-ff3c-44c8-988b-e6279012ec5d")
 			(effects
@@ -4826,7 +4826,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 350)
+			(at 0 0 170)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "64eea54c-fcbd-4d94-a4f1-72acfb84ab6a")
@@ -4838,7 +4838,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 350)
+			(at 0 0 170)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ec74006f-3a86-4ffb-ad57-2343fb1ad163")
@@ -5162,7 +5162,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -5193,7 +5193,7 @@
 		(uuid "408cb644-10aa-407f-8140-e8d44ae6ed4e")
 		(at 103.76328 103.506866 -22)
 		(property "Reference" "S10"
-			(at 0 8.8 338)
+			(at 0 8.8 158)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "39878dc0-eb71-43cc-b31b-35af97f0fead")
@@ -5205,7 +5205,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(uuid "2a7ce1e8-207d-4fca-8e7b-77a9bdd430d4")
 			(effects
@@ -5216,7 +5216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "50077cae-34c0-4618-81e8-5059a5334c10")
@@ -5228,7 +5228,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "cfaebb9b-ed14-4232-91db-8e333847ed53")
@@ -5552,7 +5552,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 -180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -5942,7 +5942,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -6332,7 +6332,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -6722,7 +6722,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -6753,7 +6753,7 @@
 		(uuid "6ae659aa-80cf-43fc-b1dd-9ddf2cbf3c4c")
 		(at 104.870343 130.041548 -37)
 		(property "Reference" "S17"
-			(at 0 8.799999 323)
+			(at 0 8.799999 143)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "25e3d45a-cfda-48ac-8347-97fb2845b24b")
@@ -6765,7 +6765,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 323)
+			(at 0 0 143)
 			(layer "F.Fab")
 			(uuid "8ae2d2df-6df6-4427-aa3c-03eda134a1a4")
 			(effects
@@ -6776,7 +6776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 323)
+			(at 0 0 143)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "94e31186-bb41-468c-af75-1f0c45df5c82")
@@ -6788,7 +6788,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 323)
+			(at 0 0 143)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "97571867-7ca2-479c-b54f-811e09e0eb20")
@@ -7112,7 +7112,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 -180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -7143,7 +7143,7 @@
 		(uuid "74075d1c-5192-4a68-b5bd-05a75d4b0aea")
 		(at 119.473631 144.254908 -52)
 		(property "Reference" "S18"
-			(at 0 8.8 308)
+			(at 0 8.8 128)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "a8f3dc4c-7765-41cc-ba6d-4cb548ad0226")
@@ -7155,7 +7155,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 308)
+			(at 0 0 128)
 			(layer "F.Fab")
 			(uuid "c2d0ec51-9fce-4c9b-b6de-d64096264238")
 			(effects
@@ -7166,7 +7166,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 308)
+			(at 0 0 128)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "53467afc-98ff-4660-8030-29e2c382c256")
@@ -7178,7 +7178,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 308)
+			(at 0 0 128)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6d5f5a57-badd-41c0-8d11-2c0860b05251")
@@ -7502,7 +7502,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 -180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -7892,7 +7892,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -8282,7 +8282,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -8671,7 +8671,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -9060,7 +9060,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -9450,7 +9450,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -9565,7 +9565,7 @@
 		(uuid "98f0e0f4-661e-4670-bf34-1520efa2aedb")
 		(at 94.345286 73.85253 -18)
 		(property "Reference" "S8"
-			(at -0.000001 8.8 342)
+			(at -0.000001 8.8 162)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "4497f363-7bf9-4a27-a644-1dc5c36599d5")
@@ -9577,7 +9577,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 342)
+			(at 0 0 162)
 			(layer "F.Fab")
 			(uuid "ba545240-ec98-4b78-bd60-cd24864a5887")
 			(effects
@@ -9588,7 +9588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 342)
+			(at 0 0 162)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b9e088d-1dde-4ab5-aa41-23950582161e")
@@ -9600,7 +9600,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 342)
+			(at 0 0 162)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "442e9de2-d561-4948-99be-57dfd4d1f471")
@@ -9924,7 +9924,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -9955,7 +9955,7 @@
 		(uuid "9ca1b31e-7e57-4647-87a6-c4fd2e37bd94")
 		(at 72.23039 75.251344 -10)
 		(property "Reference" "S5"
-			(at 0 8.8 350)
+			(at 0 8.8 170)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "191d43af-0d75-4b11-a9af-8478c6caf26e")
@@ -9967,7 +9967,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 350)
+			(at 0 0 170)
 			(layer "F.Fab")
 			(uuid "ccd16efe-2b4a-4549-b006-bc209ef82397")
 			(effects
@@ -9978,7 +9978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 350)
+			(at 0 0 170)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9242d6d8-8589-4931-b353-f65f5055757d")
@@ -9990,7 +9990,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 350)
+			(at 0 0 170)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b6ce998b-16aa-4049-a780-787ede085ce6")
@@ -10314,7 +10314,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -10345,7 +10345,7 @@
 		(uuid "b51eaa34-d8b2-4df5-9bf8-3e662c4853c8")
 		(at 116.499905 71.982615 -22)
 		(property "Reference" "S12"
-			(at 0 8.8 338)
+			(at 0 8.8 158)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "b8858fdc-eaec-4d64-9da5-28d3ce235765")
@@ -10357,7 +10357,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(uuid "52c3350d-debb-4135-aefa-14322c3837d6")
 			(effects
@@ -10368,7 +10368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "65cfa221-bf46-48be-b000-fe41759858fb")
@@ -10380,7 +10380,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2792a3b8-029d-4b35-93ea-cd23260ce63d")
@@ -10704,7 +10704,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -11094,7 +11094,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -11484,7 +11484,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -11957,7 +11957,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -12346,7 +12346,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -12736,7 +12736,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -13126,7 +13126,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -13241,7 +13241,7 @@
 		(uuid "cc5b0b3a-a5f5-4fcd-8a92-d708ce57919a")
 		(at 131.643962 82.550167 -22)
 		(property "Reference" "S15"
-			(at 0 8.8 338)
+			(at 0 8.8 158)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f1ddea17-4f24-47ff-a181-751d9a0728c8")
@@ -13253,7 +13253,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(uuid "8fe76f83-b106-4b14-9e53-b324d2f46145")
 			(effects
@@ -13264,7 +13264,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "46de62ba-b7ed-4c9f-b530-16b1639b2364")
@@ -13276,7 +13276,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d790dbe1-d0c2-4607-9e78-fc93bbb3a1fb")
@@ -13600,7 +13600,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 -180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -13631,7 +13631,7 @@
 		(uuid "d0c7e9a6-9b2e-4fb5-8539-c0c975fab785")
 		(at 118.907337 114.074418 -22)
 		(property "Reference" "S13"
-			(at 0 8.8 338)
+			(at 0 8.8 158)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "cd161081-084a-45e8-9043-7821e3f44421")
@@ -13643,7 +13643,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(uuid "89876827-5942-43f2-b78e-7242bdeef3eb")
 			(effects
@@ -13654,7 +13654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "09ccc6b0-bf28-47d7-aa48-8f6db3896094")
@@ -13666,7 +13666,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a4cc79c5-6132-4294-9f6e-dc766e8f11b8")
@@ -13990,7 +13990,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 -180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -14021,7 +14021,7 @@
 		(uuid "d3f760fc-a730-4f5e-ac78-d611bad61a60")
 		(at 69.278371 91.993076 -10)
 		(property "Reference" "S4"
-			(at 0 8.8 350)
+			(at 0 8.8 170)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "810a2b8d-19aa-4c21-997b-0a2d1b8644ca")
@@ -14033,7 +14033,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 350)
+			(at 0 0 170)
 			(layer "F.Fab")
 			(uuid "cf2d3517-cc7c-410a-987e-47da99770e62")
 			(effects
@@ -14044,7 +14044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 350)
+			(at 0 0 170)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dd5051c4-028b-4448-afee-e9d9a19b1b53")
@@ -14056,7 +14056,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 350)
+			(at 0 0 170)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "59a5ccd7-1266-4d99-97dc-c96784de3bcb")
@@ -14380,7 +14380,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -14770,7 +14770,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -14801,7 +14801,7 @@
 		(uuid "e682dc72-76a5-4966-9df9-747420b65e44")
 		(at 110.131592 87.744741 -22)
 		(property "Reference" "S11"
-			(at 0 8.8 338)
+			(at 0 8.8 158)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "840c9b46-55ba-4258-be32-62a1af090975")
@@ -14813,7 +14813,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(uuid "f3c52778-eb34-49e5-b4ef-fff57250261e")
 			(effects
@@ -14824,7 +14824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c25d53e3-282a-452a-9ceb-8b6940aa54e5")
@@ -14836,7 +14836,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 338)
+			(at 0 0 158)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "68b0b092-b607-4da4-9d32-43b619a8dcde")
@@ -15160,7 +15160,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -15550,7 +15550,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -15939,7 +15939,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -16329,7 +16329,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
@@ -16803,7 +16803,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 180 0 0)
+				(xyz 180 -0 180)
 			)
 		)
 		(model "${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step"
