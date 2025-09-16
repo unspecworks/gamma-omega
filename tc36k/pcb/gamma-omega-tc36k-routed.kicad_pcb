@@ -4606,7 +4606,19 @@
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../../cases/top.step"
-			(opacity 0.4)
+			(opacity 0.4000)
+			(offset
+				(xyz 156.65 76 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
+			)
+		)
+		(model "${KIPRJMOD}/../../cases/bottom.step"
+			(opacity 0.4000)
 			(offset
 				(xyz 156.65 76 0)
 			)
