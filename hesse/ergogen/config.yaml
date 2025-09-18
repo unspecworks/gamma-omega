@@ -371,10 +371,10 @@ pcbs:
           P1: C3
           P0: R1
           P2: C4
-          P3: C5
-          P4: R4
-          P5: R3
-          P6: R8
+          P3: R4
+          P4: R3
+          P5: R8
+          P6: C5
           P7: C2
           P8: C1
           P9: C6
