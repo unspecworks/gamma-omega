@@ -3,6 +3,14 @@
 > [!NOTE]
 > Compatible with both [Original](../original/) and [TC36K](../tc36k/) PCBs.
 
+## Bottom case
+
+* **`bottom.step`**
+  This version exposes the switch hotswap sockets.
+
+* **`bottom_covered.step`**
+  This version conceals the switch hotswap sockets, providing a cleaner appearance.
+
 
 ## Recommendation
 
