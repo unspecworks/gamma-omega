@@ -218,7 +218,7 @@ outlines:
       # (cover all the pins but still fit original case), bottom is internal so not important.
       size: [100, 30]
       adjust:
-        shift: [49.5, 0.25]
+        shift: [50, 0.25]
       operation: add
     - what: rectangle #center bottom horizontal (inc. screw) and (at top) bottom of USB cut-out
       where: matrix_inner_top
