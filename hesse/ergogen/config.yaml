@@ -217,8 +217,9 @@ outlines:
       # height and vertical offest fine-tuned for top to match automatic top-left cut
       # (cover all the pins but still fit original case), bottom is internal so not important.
       size: [100, 30]
+      # But for the Hesse don't want the cutout at all!
       adjust:
-        shift: [50, 0.25]
+        shift: [70, 0.25]
       operation: add
     - what: rectangle #center bottom horizontal (inc. screw) and (at top) bottom of USB cut-out
       where: matrix_inner_top
