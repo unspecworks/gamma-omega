@@ -353,7 +353,7 @@ pcbs:
           BAT_N: GND
           BAT_P: RAW
       mcu:
-        what: ceoloide/mcu_supermini_nrf52840
+        what: ceoloide/mcu_nice_nano
         where:
           ref: matrix_inner_top
         adjust:
