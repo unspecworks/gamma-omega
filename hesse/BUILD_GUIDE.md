@@ -53,7 +53,7 @@
 
 ## Firmware Flashing
 
-1. Download the `hesse-nice_nano_v2-zmk.uf2` firmware.
+1. Download the [hesse-nice_nano_v2-zmk.uf2](https://github.com/peterjc/zmk-keyboard-graph-theory/releases/download/latest/hesse-nice_nano_v2-zmk.uf2) firmware.
 2. Connect the controller, the clones are pre-loaded with a blink program.
   * Check the left LED flashes once a second
   * Check the right LED turns on or off every second
