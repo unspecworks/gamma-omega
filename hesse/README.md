@@ -18,9 +18,8 @@ or the [SuperMini NRF52840](https://kriscables.com/supermini-nrf52840/) aka
 These has built in BlueTooth, LiPro battery charging, ZMK support, but "only"
 21 GPIO pins. The compromise means using a bipartite girth 6 graph of 21
 vertices and 36 edges, giving *only 4-key roll over*. This is the *Hesse
-Configuration Incidence Graph*, also known as the
-[https://houseofgraphs.org/graphs/44164](incidence graph of the affine plane
-of order 3).
+Configuration Incidence Graph*, also known as the [incidence graph of the
+affine plane of order 3](https://houseofgraphs.org/graphs/44164).
 
 It looks like the original Gamma Omega - the key placement, PCB outline and
 case outline remain the same. However the case moves the reset button to the
