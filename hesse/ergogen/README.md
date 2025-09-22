@@ -2,8 +2,10 @@
 
 This is based on the [ergogen](https://github.com/ergogen/ergogen) configuration file
 at `../../tc36k/config.yaml` which describes the Gamma-Omega TC36K keyboard mono PCB.
-The changes are to use a smaller "SuperMini NRF52840" controller, with less GPIO pins
-and thus a different wiring net, and make a cut out for the inclusion of a battery.
+The changes are to use a smaller "Nice!Nano v2" controller (or the "SuperMini NRF52840"
+aka "ProMicro52840" clone), which has Bluetooth but less GPIO pins and thus a different
+wiring net. We also make a cut out for the inclusion of a battery, and a JST battery
+connector, and a reset button (but no power switch in the initial version).
 Otherwise the PCB outline and switch placement should be unchanged.
 
 Run ergogen on the whole folder to get it to look at the footprints:
@@ -25,7 +27,8 @@ Writing output to disk...
 Done.
 ```
 
-To try to merge any changes with the manually routed PCB, use Ergogen Helper:
+To merge any changes with the manually routed PCB, try [Ergogen
+Helper](https://github.com/infused-kim/kb_ergogen_helper):
 
 ```
 ❯ cp output/pcbs/gamma-omega-hesse.kicad_pcb hesse/pcb/gamma-omega-hesse-routed-new.kicad_pcb && \
