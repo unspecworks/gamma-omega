@@ -4,25 +4,28 @@
 This iteration of the Gamma Omega family of 36-key keyboards is the first wireless one
 which supports BlueTooth, specifically BlueTooth Low Energy (BLE) using ZMK firmware.
 This meant a change in the controller, as even through the Raspberry Pi Pico W boards
-might work, they are much more battery hungry than the controllers typically used with ZMK.
+might work, their Bluetooth module is not yet supported in ZMK, and they are much more
+battery hungry than the controllers typically used with ZMK.
 
 In order to stick with a diode-free Graph Theory wiring design, I really wanted a
 BlueTooth controller with built in LiPo battery charging *and* at least 26 GPIO pins
 to follow the same partial *Tutte Coxeter graph* wiring as used in the
 [Gamma Omega TC36K](../tc36k/README.md) with 6-key roll over.
 
-Instead, this design uses a Nice!Nano v2 clone, the [SuperMini
-NRF52840](https://kriscables.com/supermini-nrf52840/),
-aka the TenStar Robot ProMicro NRF52840. This has built in BlueTooth, LiPro battery
-charging, but "only" 21 GPIO pins. The compromise means using a bipartite girth 6
-graph of 21 vertices and 36 edges, giving only 4-key roll over. This is the *Hesse
+Instead, this design uses a [Nice!Nano v2](https://nicekeyboards.com/nice-nano)
+or the [SuperMini NRF52840](https://kriscables.com/supermini-nrf52840/) aka
+[ProMicro NRF52840](https://www.nologo.tech/product/otherboard/NRF52840.html).
+These has built in BlueTooth, LiPro battery charging, ZMK support, but "only"
+21 GPIO pins. The compromise means using a bipartite girth 6 graph of 21
+vertices and 36 edges, giving *only 4-key roll over*. This is the *Hesse
 Configuration Incidence Graph*, also known as the
-[https://houseofgraphs.org/graphs/44164](incidence graph of the affine plane of order 3).
+[https://houseofgraphs.org/graphs/44164](incidence graph of the affine plane
+of order 3).
 
-The ProMicro footprint is only 17.78 by 33mm, smaller than the Raspberry Pi Pico at
-21 by 51mm. This should still mean the soldered header pins under the PCB *just*
-fit in generous cut-outs in the original bottom case design. We also need to consider
-the battery placement.
+It looks like the original Gamma Omega - the key placement, PCB outline and
+case outline remain the same. However the case moves the reset button to the
+top edge along from the USB connector, and internally adds a battery
+compartment. ZMK deep sleep is used in lieu of a physical on/off switch.
 
 ## Credits
 
