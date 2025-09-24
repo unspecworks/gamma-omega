@@ -655,6 +655,30 @@
 			)
 		)
 		(embedded_fonts no)
+		(model "${KIPRJMOD}/../cases/top-hesse.step"
+			(opacity 0.7500)
+			(offset
+				(xyz -156.5 68.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/../cases/bottom-hesse.step"
+			(opacity 0.5000)
+			(offset
+				(xyz -156.65 68 -1.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "ceoloide:mounting_hole_plated"
 		(layer "F.Cu")
