@@ -9,8 +9,8 @@
 	(paper "A3")
 	(title_block
 		(title "gamma-omega-tc36k")
-		(date "2025-06-25")
-		(rev "v1.0.0")
+		(date "2025-09-30")
+		(rev "v1.1.0")
 		(company "Unknown")
 	)
 	(layers
