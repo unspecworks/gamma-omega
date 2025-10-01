@@ -12,9 +12,10 @@ There are currently two variants of Gamma Omega in this repository.
 |   | PCB | Diodeless | Switch | Completed |
 |-|-|-|-|-|
 | [Original](/original/) | Reversible |  | Choc v1, v2[^1] | :white_check_mark: | 
-| [TC36K](/tc36k/) | Mono | :white_check_mark: | Choc v1 | :white_check_mark: |
+| [TC36K](/tc36k/) | Mono | :white_check_mark: | Choc v1, v2[^2]  | :white_check_mark: |
 
 [^1]: Limited by switch spacing.
+[^2]: Since v1.1.0, Limited by switch spacing.
 
 Both versions use the same layout, case, and MCU controller.
 
