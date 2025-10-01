@@ -679,6 +679,17 @@
 				(xyz -0 -0 -0)
 			)
 		)
+		(model "${EG_INFUSED_KIM_3D_MODELS}/Nice_Nano_V2.step"
+			(offset
+				(xyz 0 1.2 1.6)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -180 -0)
+			)
+		)
 	)
 	(footprint "ceoloide:mounting_hole_plated"
 		(layer "F.Cu")
