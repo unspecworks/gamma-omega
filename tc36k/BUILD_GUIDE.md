@@ -10,7 +10,7 @@
 | M2x6 Countersunk screw | 4 | 6mm length | |
 | M2x8 Countersunk screw | 4 | 8mm length (or 6mm × 8) | |
 | Feet bumpons | 6 | 8mm diameter, any height. | |
-| Kailh Choc PG1350 HotSwap Sockets | 36 | | 💡 |
+| Kailh Choc PG1350 HotSwap Sockets | 36 | 💡 | |
 | Kailh Choc switches | 36 | PG1350 | ⚠️ |
 | Keycap | 36 | MBK, CFX, ... | |
 | Gamma Omega TC36K PCB | 1 | 1.6mm thickness | JLCPCB |
