@@ -10,8 +10,8 @@
 | M2x6 Countersunk screw | 4 | 6mm length | |
 | M2x8 Countersunk screw | 4 | 8mm length (or 6mm × 8) | |
 | Feet bumpons | 6 | 8mm diameter, any height. | |
-| Kailh Choc PG1350 HotSwap Sockets | 36 | 💡 |
-| Kailh Choc v1 switches | 36 | PG1350 | ⚠️ |
+| Kailh Choc PG1350 HotSwap Sockets | 36 | | 💡 |
+| Kailh Choc switches | 36 | PG1350 | ⚠️ |
 | Keycap | 36 | MBK, CFX, ... | |
 | Gamma Omega TC36K PCB | 1 | 1.6mm thickness | JLCPCB |
 | Top case | 1 | SLA Resin | JLC3DP |
@@ -31,9 +31,10 @@
 > As long as you don't care about the boot button, standard 26 GPIO Pi Pico designs *should* be fine (untested).
 
 > [!NOTE]
-> With a minor change to the central hole for each switch (using `choc_v2_support: true` in Ergogen),
-> the PCB could be made compatible with choc v1 and v2.
-> However, since the key spacing is 18x17mm, there are not many compatible keycaps.
+> As of PCB v1.1.0, the central hole for each switch has been enlarged and should be
+> compatible with choc v1 or v2 switches with no stabilizer pin.
+> However, since the key spacing is 18x17mm, there are not many compatible keycaps
+> for the Mx style stem on the choc v2 switches.
 
 > [!TIP]
 > This PCB allows directly soldering the choc switches (rotated 180 degress) without using hot-swap sockets.
