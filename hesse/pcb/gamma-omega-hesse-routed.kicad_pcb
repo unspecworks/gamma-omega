@@ -1324,6 +1324,17 @@
 			(uuid "bb8e92dd-dc04-40f7-9ae9-ad40ba49aa8b")
 		)
 		(embedded_fonts no)
+		(model "${KICAD9_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal.step"
+			(offset
+				(xyz -1 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "ceoloide:mounting_hole_plated"
 		(layer "F.Cu")
