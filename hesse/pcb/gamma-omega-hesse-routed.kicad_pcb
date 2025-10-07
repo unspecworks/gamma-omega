@@ -156,6 +156,7 @@
 				)
 			)
 		)
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -742,6 +743,7 @@
 				)
 			)
 		)
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -825,6 +827,7 @@
 				)
 			)
 		)
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -908,6 +911,7 @@
 				)
 			)
 		)
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -991,6 +995,7 @@
 				)
 			)
 		)
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -1067,6 +1072,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "533b1091-397e-4bea-b921-40a58d751a4d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C157932"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4843b25e-377c-45b5-b476-290f63e933bb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1387,6 +1404,7 @@
 				)
 			)
 		)
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -1470,6 +1488,7 @@
 				)
 			)
 		)
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -1553,6 +1572,7 @@
 				)
 			)
 		)
+		(attr exclude_from_bom)
 		(fp_circle
 			(center 0 0)
 			(end -2.15 0)
@@ -1629,6 +1649,18 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1f01b9c6-5085-4c34-9bf1-f624deef1731")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C266196"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "ef2fa2aa-4580-4e7c-b04f-23849ef6a9ee")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1904,7 +1936,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "0c049e7e-e6a9-4d63-979a-0792b3c337c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.7)
@@ -2282,7 +2326,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "b2673131-54c3-4242-92d0-53b6137de067")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.7)
 			(end -2 -4.2)
@@ -2660,7 +2716,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "29772a56-c22f-4a52-8066-38b2859dab77")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.7)
 			(end -2 -4.2)
@@ -3038,7 +3106,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e5ff16cb-cfb0-4b95-9eeb-f82df69d11f6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.699999)
@@ -3416,7 +3496,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "11f3e126-701a-4e78-82cd-7e3d2aa7a889")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.699999)
@@ -3794,7 +3886,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "647aa151-c17c-4052-82e3-68b968a8b7a8")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.699999)
@@ -4172,7 +4276,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "607758c6-891d-42b9-b728-47e3cbfa3568")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.7)
@@ -4550,7 +4666,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "55902ee2-0fbb-417c-8dbb-73b5b1c3dd2a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.699999)
@@ -4928,7 +5056,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "9181e87f-33e5-4a4d-a47a-93a6a1351f6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.7)
@@ -5305,7 +5445,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3d96e53e-8e96-4225-80bb-e7c429cf0717")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.7)
@@ -5683,7 +5835,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a6197f27-4c57-46b7-8384-a0e551f1d505")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.7)
@@ -6061,7 +6225,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c6b7e6ab-25fa-45dc-b13e-a05d8e9f0519")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.499999 -8.2)
 			(end -2 -7.7)
@@ -6439,7 +6615,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7b2c6c83-ab19-4686-a683-0e657fc5b691")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.7)
@@ -6816,7 +7004,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "736d61b5-f871-4ce5-bbb9-cde1cd5b3e68")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.7)
 			(end -2 -4.2)
@@ -7194,7 +7394,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "924b44f8-4b19-46a1-933b-ca1f16409322")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.7)
 			(end -2 -4.2)
@@ -7572,7 +7784,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "c28769b2-4257-4f8f-817f-836d2ed2bb38")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.7)
 			(end -2 -4.2)
@@ -7950,7 +8174,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "719a58cc-2d15-42ed-9a8c-2290c5bd016c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.7)
 			(end -2 -4.2)
@@ -8328,7 +8564,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e34e35ac-6df0-4043-bdf6-8a2c167241ec")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.7)
@@ -8705,7 +8953,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "bd8fb501-edd5-425e-b5db-54ef9689936a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.7)
 			(end -2 -4.2)
@@ -9083,7 +9343,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f514bbbc-c9ed-4681-af0f-22c1dfe1718f")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.7)
 			(end -2 -4.2)
@@ -9461,7 +9733,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "7fbd2c30-cd1c-465a-ad17-c338af23e7e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.7)
 			(end -2 -4.2)
@@ -9839,7 +10123,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "2048c8f0-93c0-40be-b74b-0a208dc1b687")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.7)
@@ -10217,7 +10513,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "21f656df-a109-4ff9-8628-c8ab226ee2c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.7)
 			(end -2 -4.2)
@@ -10595,7 +10903,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "f033ccd4-e054-42c1-b275-29acf784eec3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.7)
 			(end -2 -4.2)
@@ -10973,7 +11293,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e4d44673-8253-4d84-b6ab-5682adb0c37c")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.7)
 			(end -2 -4.2)
@@ -11351,7 +11683,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e1d08c66-6585-4dcd-ad22-f4f7a821b8fa")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.700001)
 			(end -2 -4.2)
@@ -11729,7 +12073,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "64af1768-aae0-46c3-b716-28bf20e775ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.7)
@@ -12106,7 +12462,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "588b7766-8c03-4b41-94d5-3e72a6573493")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.699999)
@@ -12484,7 +12852,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "aab49a72-a6f8-4b8e-9453-c721848fec53")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.7)
@@ -12862,7 +13242,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "5255cda2-8265-43d2-8ca0-e26ae33051dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.699999)
@@ -13240,7 +13632,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "23a1f71a-1d13-4246-8d37-66949b2b9453")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.7)
@@ -13617,7 +14021,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "3b70374a-d73d-400a-baa9-b6329078886e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.7)
@@ -13994,7 +14410,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "6a1997ed-4733-49fa-98fd-b955a903b2c2")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.7)
 			(end -2 -4.2)
@@ -14372,7 +14800,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "a982668b-6363-4ccc-87c4-d663d3f98b65")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.699999)
@@ -14750,7 +15190,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "899de155-891b-452a-b7b9-5bcf2b81fe22")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -8.2)
 			(end -2 -7.7)
@@ -15128,7 +15580,19 @@
 				)
 			)
 		)
-		(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+		(property "LCSC" "C5333465"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e3714acb-839c-403a-8e4b-4e42f9ca04f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr allow_soldermask_bridges)
 		(fp_line
 			(start -1.5 -3.7)
 			(end -2 -4.2)
