@@ -1,0 +1,622 @@
+meta:
+  engine: 4.1.0
+units:
+  cx: 17.5
+  cy: 16.5
+  mg: 50
+points:
+  mirror:
+    ref: matrix_inner_top
+    distance: mg
+  zones:
+    matrix:
+      anchor.shift: [50,-100] # Fix KiCad placement
+      columns:
+        pinky:
+          key:
+            spread: 12
+            splay: 0
+            origin: [0, -10]
+            width: cx
+            height: cy
+          rows:
+            bottom:
+              bind: [0, 30, 7, 0]
+              column_net: C1
+              row_net: R2
+              mirror.column_net: C12
+              mirror.row_net: R6
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C1
+              row_net: R3
+              mirror.column_net: C12
+              mirror.row_net: R5
+            top:
+              bind: [7, 15, 20, 0]
+              column_net: C1
+              row_net: R1
+              mirror.column_net: C12
+              mirror.row_net: R9
+        ring:
+          key:
+            spread: cx - 1
+            stagger: cy * 0.5
+            splay: -10
+            origin: [0, -16]
+            width: cx
+            height: cy
+          rows:
+            bottom:
+              bind: [0, 0, 0, 0]
+              column_net: C2
+              row_net: R5
+              mirror.column_net: C11
+              mirror.row_net: R8
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C2
+              row_net: R4
+              mirror.column_net: C11
+              mirror.row_net: R4
+            top:
+              bind: [0, 10, 20, 0]
+              column_net: C2
+              row_net: R1
+              mirror.column_net: C11
+              mirror.row_net: R7
+        middle:
+          key:
+            shift: [0, 0]
+            spread: cx 
+            stagger: cy/3
+            splay: -8
+            origin: [0, -12]
+            width: cx
+            height: cy
+          rows:
+            bottom:
+              bind: [0, 0, 0, 0]
+              column_net: C3
+              row_net: R6
+              mirror.column_net: C10
+              mirror.row_net: R3
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C3
+              row_net: R7
+              mirror.column_net: C10
+              mirror.row_net: R9
+            top:
+              bind: [0, 0, 0, 0]
+              column_net: C3
+              row_net: R1
+              mirror.column_net: C10
+              mirror.row_net: R7
+        index:
+          key:
+            spread: cx - .6
+            stagger: -cy/2
+            splay: -4
+            origin: [0, -cx]
+            width: cx
+            height: cy
+          rows:
+            bottom:
+              bind: [0, 0, 0, 0]
+              column_net: C4
+              row_net: R8
+              mirror.column_net: C9
+              mirror.row_net: R5
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C4
+              row_net: R9
+              mirror.column_net: C9
+              mirror.row_net: R8
+            top:
+              bind: [0, 0, 10, 10]
+              column_net: C4
+              row_net: R1
+              mirror.column_net: C9
+              mirror.row_net: R3
+        inner:
+          key:
+            spread: cx+.5
+            stagger: -cy/4
+            splay: 0
+            origin: [0, -cy]
+            width: cx
+            height: cy
+          rows: 
+            bottom:
+              bind: [0, 0, 0, 0]
+              column_net: C5
+              row_net: R2
+              mirror.column_net: C8
+              mirror.row_net: R6
+            home:
+              bind: [0, 0, 0, 0]
+              column_net: C5
+              row_net: R4
+              mirror.column_net: C8
+              mirror.row_net: R3
+            top:
+              bind: [0, 40, 40, 0]
+              column_net: C5
+              row_net: R9
+              mirror.column_net: C8
+              mirror.row_net: R4
+      rows:
+        bottom:
+          padding: cy + .5
+        home:
+          padding: cy + .5
+        top:
+    thumb:
+      anchor:
+        ref: matrix_inner_bottom
+        shift: [-cx * 1.5 - 1,-cy-1]
+      columns:
+        first:
+          key:
+            splay: 0
+            width: cx
+            height: cy
+          rows:
+            only:
+              column_net: C6
+              row_net: R2
+              mirror.column_net: C7
+              mirror.row_net: R8
+              bind: [15, 5, 0, 0]
+        second:
+          key:
+            spread: cx + .75
+            splay: -15
+            origin: [-cx/2, -cx/2]
+            width: cx
+            height: cy
+          rows:
+            only:
+              column_net: C6
+              row_net: R7
+              mirror.column_net: C7
+              mirror.row_net: R6
+              bind: [10, 5, 0, 5]
+        third:
+          key:
+            spread: cx + .75
+            splay: -15
+            origin: [-cx/2, -cx/2]
+            width: cx
+            height: cy
+          rows:
+            only:
+              column_net: C6
+              row_net: R5
+              mirror.column_net: C7
+              mirror.row_net: R2
+              bind: [15, 0, 0, 0]
+outlines:
+  raw:
+    - what: rectangle
+      where: true
+      bound: true
+      asym: both
+      size: [cx, cy]
+      corner: 0
+  pcb:
+    - what: outline
+      name: raw
+    - what: rectangle #center top horizontal (screw, controller pins, not USB area), mirrored
+      where: matrix_pinky_top
+      asym: both
+      # width and horizontal shift fine-tuned for right edge (USB cut-out),
+      # left edge is internal so not important.
+      # height and vertical offest fine-tuned for top to match automatic top-left cut
+      # (cover all the pins but still fit original case), bottom is internal so not important.
+      size: [100, 30]
+      # But for the Hesse don't want the cutout at all!
+      adjust:
+        shift: [70, 0.25]
+      operation: add
+    - what: rectangle #center bottom horizontal (inc. screw) and (at top) bottom of USB cut-out
+      where: matrix_inner_top
+      asym: source
+      # width and horizontal shift set left & right edges, both both interal so some leaway.
+      # height and vertical shift fine-tuned for top to be bottom of USB cut-out,
+      # AND the bottom edge to match original & case.
+      size: [70, 94]
+      adjust:
+        shift: [mg / 2, -23.3]
+        orient: 22
+      operation: add
+
+  out-pcb:
+    - what: outline
+      name: pcb
+      expand: 1
+      joints: 1
+      fillet: 0
+
+  pretty-pcb-nf: # for drawing case.
+    - what: outline
+      name: pcb
+      expand: 1
+      joints: 1
+
+  pretty-pcb: # final kicad edgecuts.
+    - what: outline
+      name: pretty-pcb-nf
+      fillet: 0.5
+    - what: rectangle # battery cut-out
+      # eg LP301230 - 110mAh 3.7V LiPo battery, about 15 x 35 x 3mm
+      # eg LP502030 - 250mAh 3.7V LiPo battery, just over 20 x 30 x 5mm
+      where: matrix_inner_top
+      asym: source
+      size: [41,24]
+      adjust:
+        shift: [(mg / 2) - 0.5, -33.5]  # off centre due to JST connector
+        orient: 22
+      operation: subtract
+
+  ## plate utils.
+  plate-cutout:
+    - what: rectangle
+      where: true
+      size: [13.8, 13.8]
+  plate-notch:
+    - what: rectangle
+      where: true
+      size: [16, 16]
+pcbs:
+  gamma-omega-hesse:
+    template: kicad8
+    outlines:
+      edge:
+        outline: pretty-pcb
+    footprints:
+      choc_hotswap:
+        what: ceoloide/switch_choc_v1_v2
+        where: true
+        params:
+          from: "{{column_net}}"
+          to: "{{row_net}}"
+          side: B
+          include_corner_marks: true
+          include_keycap: true
+          keycap_height: cy
+          keycap_width: cx
+          reversible: false
+          solder: true
+          hotswap: true
+          # Workaround for footprint oddity (logged as issue 64)
+          # to get v2 centre hole, but no stabilizers etc added:
+          choc_v2_support: true
+          include_stabilizer_pad: false
+          center_hole_diameter: 5.0
+          outer_pad_width_front: 2.0
+          outer_pad_width_back: 2.0
+          keycap_3dmodel_filename: '${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Keycap_MBK_Black_1u.step'
+          keycap_3dmodel_xyz_rotation: [180, 0, 0]
+          keycap_3dmodel_xyz_offset: [0, 0, -8]
+          switch_3dmodel_filename: '${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Switch.step'
+          switch_3dmodel_xyz_rotation: [180, 0, 0]
+          switch_3dmodel_xyz_offset: [0, 0, -1.6]
+          hotswap_3dmodel_filename: '${EG_INFUSED_KIM_3D_MODELS}/Choc_V1_Hotswap.step'
+          hotswap_3dmodel_xyz_rotation: [180, 0, 0]
+          hotswap_3dmodel_xyz_offset: [0, 0, -1.6]
+      row_route:
+        what: ceoloide/utility_router
+        where: true
+        params:
+          net: "{{row_net}}"
+          route: "b(-4.9,3.8)(-4.1,3.0)(4.8,3.0)(8.0,-0.2)(8.0,-3.75)"
+          width: 0.2
+      column_route:
+        what: ceoloide/utility_router
+        where: true
+        params:
+          net: "{{column_net}}"
+          route: "b(-3.5,-5.7)(-7.8,-1.4)(-7.8,6.6)(-0.7,6.6)(0,5.9)"
+          width: 0.2
+      column_route_down:
+        what: ceoloide/utility_router
+        where: [ [-/.*bottom/, -/thumb.*/] ]
+        params:
+          net: "{{column_net}}"
+          route: "b(-7.8,6.6)(-3.5,11)"
+          width: 0.2
+      reset_switch:
+        what: reset_switch_1825027-8
+        where:
+          ref: mirror_matrix_pinky_top
+          shift: [70.15, 12.5]
+          rotate: 180
+        params:
+          reset_switch_3dmodel_filename: "${KICAD9_3RD_PARTY}/c-1825027-8-g-3d.stp"
+          reset_switch_3dmodel_xyz_offset: [2.25, -2.6, 4.0]
+          reset_switch_3dmodel_xyz_rotation: [-90, 0, 0]
+          reset_switch_3dmodel_xyz_scale: [1, 1, 1]
+      battery_connector_jst:
+        what: ceoloide/battery_connector_jst_ph_2
+        asym: source
+        where:
+          ref: mirror_matrix_inner_bottom
+          shift: [15.6,-5.25]
+        adjust:
+          orient: 180
+        params:
+          side: F
+          # We have no power switch between RAW and BAT_P
+          BAT_N: GND
+          BAT_P: RAW
+      mcu:
+        what: ceoloide/mcu_nice_nano
+        where:
+          ref: matrix_inner_top
+        adjust:
+          # The Supermini NRF52840 is reportedly 17.78mm wide, 33.00mm long
+          # (and 30.48mm between the center of the top and bottom pins).
+          # The original Raspberry Pi Pico is 21mm wide (17.78mm between the pins),
+          # and 51mm long (48.26mm between the center of the top and bottom pins).
+          # This is 51 - 33 = 18mm shorter, so adjust the original y-offset by
+          # half of that - so the center is 9mm higher up:
+          shift: [mg / 2, 15.67]
+          orient: 22
+        params:
+          reversible: false
+          include_extra_pins: true
+          # Top left as look at chips, going down
+          P1: C3
+          P0: R1
+          P2: C4
+          P3: R4
+          P4: R3
+          P5: R8
+          P6: C5
+          P7: C2
+          P8: C1
+          P9: C6
+          # Bottom right, going up
+          P10: R2
+          P16: R5
+          P14: R6
+          P15: C8
+          P18: C9
+          P19: C10
+          P20: R9
+          P21: R7
+          # Extra trio in middle
+          P101: C11
+          P102: C12
+          P107: C7
+      keep-out:
+        what: ceoloide/utility_keepout_zone
+        params:
+          tracks_allowed: false
+          vias_allowed: false
+          pads_allowed: false
+          copperpour_allowed: false
+          outline_type: full
+          points: [[168.9,83.1],[177.1,103.9],[135.2,103.9],[143.5,83.1],[149.45,83.1],[150.0,82.5],[150.0,81.2],[151.5,80.0],[162.0,80.0],[163.3,81.2],[163.3,82.5],[163.95,83.1]]
+      case-hole-lt:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: matrix_pinky_top
+          shift: [-7, 13.75]
+      case-hole-lt-mirror:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: mirror_matrix_pinky_top
+          shift: [-7, 13.75]
+      case-hole-lb:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: matrix_pinky_bottom
+          shift: [-7, -13.75]
+      case-hole-lb-mirror:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: mirror_matrix_pinky_bottom
+          shift: [-7, -13.75]
+      case-hole-rt:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: matrix_pinky_top
+          shift: [82, 11.75]
+      case-hole-rt-mirror:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: mirror_matrix_pinky_top
+          shift: [82, 11.75]
+      case-hole-rb:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: matrix_pinky_bottom
+          shift: [88, -51]
+      case-hole-rb-mirror:
+        what: ceoloide/mounting_hole_plated
+        where:
+          ref: mirror_matrix_pinky_bottom
+          shift: [88, -51]
+      # Silk-screen art
+      front_logo:
+        what: hesse_logo
+        params:
+          layer: F.SilkS
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [0, -27]
+      back_logo:
+        what: hesse_logo
+        params:
+          layer: B.SilkS
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [0, -27]
+      text1:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: Hesse
+          width: 3.5
+          height: 3.5
+          thickness: 0.5
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [20, -17]
+      text2:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: Configuration
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [20, -21]
+      text3:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: of 9 points,
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [20, -24]
+      text4:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: on 12 lines.
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [20, -27]
+      text5:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: Keyboard uses its
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [-20, -16]
+      text6:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: Incidence Graph,
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [-20, -19]
+      text7:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: 9+12=21 nodes,
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [-20, -22]
+      text8:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: (GPIO pins),
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [-20, -25]
+      text9:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: 36 edges
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [-20, -28]
+      text10:
+        what: ceoloide/utility_text
+        params:
+          side: B
+          mirrored: true
+          text: (keys).
+          width: 1.6
+          height: 1.6
+          thickness: 0.32
+        where:
+          aggregate.parts: [matrix_inner_bottom, mirror_matrix_inner_bottom]
+          shift: [-20, -31]
+      text_version1:
+        what: ceoloide/utility_text
+        params:
+          reversible: true
+          text: Designed Scotland August 2025,
+          width: 1.4
+          height: 1.4
+          thickness: 0.1875
+        where:
+          ref: matrix_pinky_bottom
+          shift: [12.5, -11.5]
+      text_version2:
+        what: ceoloide/utility_text
+        params:
+          reversible: true
+          text: Ergogen v4.1.0 & KiCad v9.0.4
+          width: 1.4
+          height: 1.4
+          thickness: 0.1875
+        where:
+          ref: matrix_pinky_bottom
+          shift: [12, -14]
+      text_descr1:
+        what: ceoloide/utility_text
+        params:
+          reversible: true
+          text: Gamma Omega 'Hesse' v1.0.0
+          width: 1.4
+          height: 1.4
+          thickness: 0.1875
+        where:
+          ref: mirror_matrix_pinky_bottom
+          shift: [11.4, -11.5]
+      text_descr2:
+        what: ceoloide/utility_text
+        params:
+          reversible: true
+          text: Diode-free using Graph Theory
+          width: 1.4
+          height: 1.4
+          thickness: 0.1875
+        where:
+          ref: mirror_matrix_pinky_bottom
+          shift: [12, -14]
