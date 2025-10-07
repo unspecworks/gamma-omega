@@ -7,17 +7,17 @@ A 36 Keys low-profile unibody ergonomic keyboard designed for portability and du
 *Portable? It may not be very compact, but you can still just toss it in your bag, right?*
 
 ## Variants
-There are currently two variants of Gamma Omega in this repository.
+There are currently three variants of Gamma Omega in this repository, all using the same 36-key layout and spacing.
 
-|   | PCB | Diodeless | Switch | Completed |
-|-|-|-|-|-|
-| [Original](/original/) | Reversible |  | Choc v1, v2[^1] | :white_check_mark: | 
-| [TC36K](/tc36k/) | Mono | :white_check_mark: | Choc v1, v2[^2]  | :white_check_mark: |
+|   | Controller | Connection | PCB | Diodes | Roll-over | Switch | Built |
+|-|-|-|-|-|-|-|-|
+| [Original](/original/) | Raspberry Pi Pico | USB | Twin | 36 | NKRO 🥇 | Choc v1, v2 | :white_check_mark: | 
+| [TC36K](/tc36k/) | Raspberry Pi Pico | USB | Mono | 0 | 6KRO 🥈 | Choc v1, v2[^1] | :white_check_mark: |
+| [Hesse](/hesse/) | Nice!Nano v2/clone | USB/BLE | Mono | 0 | 4KRO 🥉 | Choc v1, v2 | :construction: |
 
-[^1]: Limited by switch spacing.
-[^2]: Since v1.1.0, Limited by switch spacing.
+[^1]: Choc v2 support since the TC36K v1.1.0.
 
-Both versions use the same layout, case, and MCU controller.
+The original and TC36K versions use the same case. The Hesse has a Bluetooth capable MCU controller and a slightly different case for the battery etc.
 
 _See the `README.md` in each folder for more information._
 
