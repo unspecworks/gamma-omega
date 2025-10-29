@@ -1,4 +1,4 @@
-# Gamma-Omega TC36K
+# Gamma-Omega TC36K - USB mono PCB without diodes
 
 ## Quick Links
 - [3D Printable Case](../cases/)
