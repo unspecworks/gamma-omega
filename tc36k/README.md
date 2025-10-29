@@ -7,8 +7,8 @@
   parts were not available).
 - [Ergogen Configuration](ergogen/README.md) 
 - Firmware (which is *different* to the original Gamma Omega):
-    - [QMK/VIAL Implementation](https://github.com/peterjc/qmk_userspace/tree/main/keyboards/tutte_coxeter_36k/)
-    - [ZMK Firmware](https://github.com/peterjc/zmk-keyboard-graph-theory/tree/main/boards/shields/tc36k)
+    - [TC36K QMK/VIAL Implementation](https://github.com/peterjc/qmk_userspace/tree/main/keyboards/tutte_coxeter_36k/)
+    - [TC36K ZMK Firmware](https://github.com/peterjc/zmk-keyboard-graph-theory/tree/main/boards/shields/tc36k)
 - [Build Guide](BUILD_GUIDE.md)
 
 ## Photos
