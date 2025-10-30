@@ -1,5 +1,22 @@
-
 # Gamma-Omega Hesse - BlueTooth mono PCB without diodes
+
+## Quick Links
+- [3D Printable Case](cases/) (which are *different* to the original Gamma Omega and TC36K):
+- [PCB](pcb/) including the Gerbers ZIP file for getting the PCB fabricated at JLCPLC or similar,
+  and BOM & position files which might work for assembly with the hot-swap sockets (untested as the
+  parts were not available).
+- [Ergogen Configuration](ergogen/README.md) 
+- Firmware (which is *different* to the original Gamma Omega and the TC36K):
+    - [Hesse ZMK Firmware](https://github.com/peterjc/zmk-keyboard-graph-theory/tree/main/boards/shields/hesse)
+- [Build Guide](BUILD_GUIDE.md)
+
+## Photos
+
+Pending, but it looks like the original Gamma Omega - the key placement, PCB outline
+and case outline remain the same. However the reset button is now on the top edge along
+from the USB connector.
+
+## PCB design
 
 This iteration of the Gamma Omega family of 36-key keyboards is the first wireless one
 which supports BlueTooth, specifically BlueTooth Low Energy (BLE) using ZMK firmware.
