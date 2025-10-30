@@ -53,7 +53,7 @@
 > For your safety: Wear protective eyewear, be cautious of hot components, and ensure proper ventilation to avoid inhaling toxic fumes.
 
 ## Firmware Flashing
-1. Download the [tutte_coxeter_36k_vial.uf2](https://github.com/peterjc/qmk_userspace/releases/download/latest/tutte_coxeter_36k_vial.uf2) firmware.
+1. Download the [tutte_coxeter_36k_vial.uf2](https://github.com/peterjc/qmk_userspace/releases/download/release-2025-10-30/tutte_coxeter_36k_vial.uf2) firmware.
 2. Press and hold the `BOOT` button while connecting the controller to your computer by USB.
 3. Release the `BOOT` button when a Mass Storage device named "RPI-RP2" appears.
 4. Copy the `tutte_coxeter_36k_vial.uf2` firmware file to this storage device.
