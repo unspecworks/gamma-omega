@@ -19,7 +19,13 @@ For now, it has only been tested with SLA Resin.
 ### [JLC3DP](https://jlc3dp.com) (JLCPCB)
 
 - 3D Technology: `SLA (Resin)`
-- Material: `JLC Black resin`
+- Material: `JLC Black resin`  
 - Surface Finish: `General Sanding`
 
-You may encounter a few warnings But rest assured, you're good to go.
+#### If you want the transparent case,
+
+- Material: `8001 Resin`
+- Surface Finish: `Oil spray`: Required for full transparency; otherwise the result will be translucent.
+
+> [!TIP]
+> You may encounter a few warnings But rest assured, you're good to go.
