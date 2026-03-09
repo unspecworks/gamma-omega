@@ -23,7 +23,7 @@ or the [TC36K's build guide](../tc36k/BUILD_GUIDE.md)?
 | Nice!Nano v2 or clone | 1 | The [SuperMini NRF52840](https://kriscables.com/supermini-nrf52840/) aka [ProMicro NRF52840](https://www.nologo.tech/product/otherboard/NRF52840.html) is tested. | [Offical](https://nicekeyboards.com/nice-nano#find-a-store), [AliExpress](https://www.aliexpress.com/item/1005006035267231.html) |
 | Pin headers/diode legs | 35+ | Use the headers included with the controller |  |
 
-> [!WARN]
+> [!WARNING]
 > The PCB design mounts the controller face up directly on the PCB, faux-castellated style.
 > This is not easy for a novice at soldering.
 
